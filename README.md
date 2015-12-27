@@ -1,6 +1,6 @@
 # 0. 职业规划
 
-[职业规划](http://www.w3school.com.cn/careers/career_tips.asp)
+- [职业规划](http://www.w3school.com.cn/careers/career_tips.asp) `Done`
 
 # 1. OS
 
@@ -8,8 +8,8 @@
 - [Linux工具快速教程][linux_tool]
 - [Linux 命令搜索](http://linux.51yip.com/)
 - [GRUB2配置文件"grub.cfg"详解](http://works.jinbuguo.com/linux/grub.cfg.html)
-- [Docker中文指南](http://www.widuu.com/chinese_docker/index.html)
-- [Docker —— 从入门到实践](https://www.gitbook.com/book/yeasy/docker_practice/details)
+- [Docker中文指南](http://www.widuu.com/chinese_docker/index.html) `Done`
+- [Docker —— 从入门到实践](https://www.gitbook.com/book/yeasy/docker_practice/details) `Done`
 - [shipyard中文文档](http://dockerpool.com/static/books/shipyard_doc/index.html)
 - [shell手册](http://manual.51yip.com/shell/index.html)
 - [Shell 编程范例](https://www.gitbook.com/star/book/tinylab/shellbook)
@@ -34,9 +34,9 @@
 - [MyBatis中文文档](http://mybatis.github.io/mybatis-3/zh/index.html)
 - [Netty 4.x 用户指南](https://www.gitbook.com/book/waylau/netty-4-user-guide/details)
 - [Velocity 索引](http://wiki.hotoo.me/Velocity.html)
-- [PowerMock 使用](http://nikytwo.github.io/lib/2014/06/13/powermock-usage/)
+- [PowerMock 使用](http://nikytwo.github.io/lib/2014/06/13/powermock-usage/) `Done`
 - [Java日期计算之Joda-Time](http://rensanning.iteye.com/blog/1546652)
-- [网络爬虫框架 WebMagic](http://webmagic.io/docs/zh/)
+- [网络爬虫框架 WebMagic](http://webmagic.io/docs/zh/) `Done`
 - [Unirest 官网](http://unirest.io/java.html)
 - [HttpComponents 官网](http://hc.apache.org/index.html)
 - [Jsoup学习笔记](https://github.com/code4craft/jsoup-learning)
@@ -53,7 +53,7 @@
 
 # 3. Groovy
 
-- [Groovy 系列][groovy_learning]
+- [Groovy 系列][groovy_learning] `Done`
 
 
 # 4. Python    
@@ -61,7 +61,7 @@
 ## 4.1. 基础
 
 - [Python 绝对简明手册](http://wiki.woodpecker.org.cn/moin/PyAbsolutelyZipManual)
-- [深入 Python 2](http://woodpecker.org.cn/diveintopython/)
+- [深入 Python 2](http://woodpecker.org.cn/diveintopython/) `Done`
 - [深入 Python 3](http://sebug.net/paper/books/dive-into-python3/)
 - [Python 2.7 官方教程中文版](http://www.pythondoc.com/pythontutorial27/index.html)
 - [Python 3.3 官方教程中文版](http://www.pythondoc.com/pythontutorial3/index.html)
@@ -74,8 +74,8 @@
 ## 4.2. Lib/框架
 
 - [Beautiful Soup 4 官方中文文档](http://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html)
-- [Scrapy 文档][1]
-- [The Django Book 2.0 中文版](http://djangobook.py3k.cn/2.0/)
+- [Scrapy 文档][1] `Done`
+- [The Django Book 2.0 中文版](http://djangobook.py3k.cn/2.0/) `Done`
 - [Python Tornado 介绍](http://dockerpool.com/static/books/introduction_to_tornado_cn/index.html)
 
 ## 4.3. 其他
@@ -103,7 +103,7 @@
 
 # 6. JS
 
-- [JavaScript 标准参考教程（alpha）](http://javascript.ruanyifeng.com/)
+- [JavaScript 标准参考教程（alpha）](http://javascript.ruanyifeng.com/) `Done`
 - [ECMAScript 6入门](http://es6.ruanyifeng.com/)
 - [深入理解JavaScript系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
 - [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
@@ -143,7 +143,7 @@
 # 9. Go
 
 - [Go编程基础](https://github.com/Unknwon/go-fundamental-programming)
-- [学习Go语言](http://mikespook.com/learning-go/)
+- [学习Go语言](http://mikespook.com/learning-go/) `Done`
 - [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang/tree/master/zh)
 - [理解Linux进程](https://www.gitbook.com/book/tobegit3hub1/understanding-linux-processes/details)
 
@@ -171,8 +171,8 @@
 
 ## 13.1 Test
 
-- [selenium 中文文档](https://github.com/fool2fish/selenium-doc)
-- [啟動 Geb － 網站自動化測試之美](https://www.gitbook.com/book/readbook/learning-geb/details)
+- [selenium 中文文档](https://github.com/fool2fish/selenium-doc) `Done`
+- [啟動 Geb － 網站自動化測試之美](https://www.gitbook.com/book/readbook/learning-geb/details) `Done`
 - [Appium 中文教程](https://www.gitbook.com/book/testerhome/appium-chinese-tutorial/details)
 - [Appium中文文档](https://testerhome.com/wiki/appiumdoccn)
 - [多浏览器测试工具 browsersync](http://www.browsersync.cn/)
@@ -195,10 +195,10 @@
 - [OpenResty最佳实践](https://www.gitbook.com/star/book/moonbingbing/openresty-best-practices)
 - [Tomcat 8 权威指南](http://wiki.jikexueyuan.com/project/tomcat/)
 - [Apache 中文手册](http://manual.51yip.com/ApacheMenu/index.html)
-- [Pro Git](http://git-scm.com/book/zh)
+- [Pro Git](http://git-scm.com/book/zh) `Done`
 - [猴子都能懂的GIT](http://backlogtool.com/git-guide/cn/)
 - [GitHub 漫游指南](https://github.com/phodal/github-roam)
-- [GotGitHub](http://www.worldhello.net/gotgithub/index.html)
+- [GotGitHub](http://www.worldhello.net/gotgithub/index.html) `Done`
 - [Gradle User Guide 中文版](https://www.gitbook.com/book/dongchuan/gradle-user-guide-/details)
 - [Gradle 实战](https://www.gitbook.com/star/book/lippiouyang/gradle-in-action-cn)
 - [Gradle 2 用户指南](https://www.gitbook.com/book/waylau/gradle-2-user-guide/details)
