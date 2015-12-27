@@ -197,6 +197,7 @@
 - [Apache 中文手册](http://manual.51yip.com/ApacheMenu/index.html)
 - [Pro Git](http://git-scm.com/book/zh)
 - [猴子都能懂的GIT](http://backlogtool.com/git-guide/cn/)
+- [GitHub 漫游指南](https://github.com/phodal/github-roam)
 - [GotGitHub](http://www.worldhello.net/gotgithub/index.html)
 - [Gradle User Guide 中文版](https://www.gitbook.com/book/dongchuan/gradle-user-guide-/details)
 - [Gradle 实战](https://www.gitbook.com/star/book/lippiouyang/gradle-in-action-cn)
@@ -305,7 +306,7 @@
 
 - [Netkiller 系列电子书](http://netkiller.github.io/)
 
-- [闲耘™. Wiki](http://wiki.hotoo.me/)
+- [闲耘?. Wiki](http://wiki.hotoo.me/)
 
 - [Hacking Team 400G数据泄露下载](http://www.mianfeib.com/hacking-team-400g-data.html)
 
