@@ -21,6 +21,7 @@
 
 ## 2.1. 基础
 
+- [Java资源大全中文版](https://github.com/jobbole/awesome-java-cn)([英文](https://github.com/akullpp/awesome-java))
 - [Google Java编程风格指南](http://www.hawstein.com/posts/google-java-style.html)
 - [Java正则表达式教程](http://www.java3z.com/cwbwebhome/article/article8/Regex/Java.Regex.Tutorial.html)
 - [最最常用的 100 个 Java 类](http://www.oschina.net/news/55726/top-100-classes-used-in-java-projects)
@@ -60,6 +61,7 @@
 
 ## 4.1. 基础
 
+- [Python资源大全(en)](https://github.com/vinta/awesome-python)
 - [Python 绝对简明手册](http://wiki.woodpecker.org.cn/moin/PyAbsolutelyZipManual)
 - [深入 Python 2](http://woodpecker.org.cn/diveintopython/) `Done`
 - [深入 Python 3](http://sebug.net/paper/books/dive-into-python3/)
@@ -103,6 +105,7 @@
 
 # 6. JS
 
+- [JavaScript 资源大全中文版](https://github.com/jobbole/awesome-javascript-cn)([英文](https://github.com/sorrycc/awesome-javascript))
 - [JavaScript 标准参考教程（alpha）](http://javascript.ruanyifeng.com/) `Done`
 - [ECMAScript 6入门](http://es6.ruanyifeng.com/)
 - [深入理解JavaScript系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
@@ -142,6 +145,7 @@
 
 # 9. Go
 
+- [Go资源大全(en)](https://github.com/avelino/awesome-go)
 - [Go编程基础](https://github.com/Unknwon/go-fundamental-programming)
 - [学习Go语言](http://mikespook.com/learning-go/) `Done`
 - [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang/tree/master/zh)
@@ -225,6 +229,7 @@
 
 # 15. Android
 
+- [Android UI 资源大全(en)](https://github.com/wasabeef/awesome-android-ui)
 - [Android 开发技术周报](http://www.androidweekly.cn/)
 - [移动 Web 资源整理](http://www.cnblogs.com/PeunZhang/p/3407453.html)
 - [值得阅读的android技术文章](https://github.com/zmywly8866/Worth-Reading-the-Android-technical-articles)
