@@ -130,6 +130,7 @@
 
 # 7. Web
 
+- [前端开发者手册](https://dwqs.gitbooks.io/frontenddevhandbook/content/index.html)
 - [前端开发知识结构](http://html5ify.com/fks)
 - [前端开发笔记本](https://www.gitbook.com/star/book/li-xinyang/frontend-notebook)
 - [Web 技术文档(mozilla)](https://developer.mozilla.org/zh-CN/docs/Web)
