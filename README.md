@@ -233,6 +233,7 @@
 - [Android UI 资源大全(en)](https://github.com/wasabeef/awesome-android-ui)
 - [Android 开发技术周报](http://www.androidweekly.cn/)
 - [移动 Web 资源整理](http://www.cnblogs.com/PeunZhang/p/3407453.html)
+- [Fresco 中文文档](http://www.fresco-cn.org/docs/index.html)
 - [值得阅读的android技术文章](https://github.com/zmywly8866/Worth-Reading-the-Android-technical-articles)
 - [Android 开源项目源码解析](https://github.com/android-cn/android-open-project-analysis)
 - [Android 开源项目分类汇总](https://github.com/Trinea/android-open-project)
