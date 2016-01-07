@@ -28,7 +28,7 @@
 
 ## 2.2. Lib/框架
 
-- [Guava教程](http://www.yiibai.com/guava/)
+- [Google Guava 官方教程](http://wiki.jikexueyuan.com/project/google-guava-official-tutorial/)
 - [Lucene教程](http://www.yiibai.com/lucene/)
 - [Apache Shiro 用户指南](https://www.gitbook.com/book/waylau/apache-shiro-1-2-x-reference/details)
 - [Jersey 2.x 用户指南](https://github.com/waylau/Jersey-2.x-User-Guide/blob/master/SUMMARY.md)
@@ -304,8 +304,6 @@
 - [协议分析网](http://www.cnpaf.net/)
 
 - [Ubuntu 中文 Wiki](http://wiki.ubuntu.org.cn/)
-
-- [易百教程](http://www.yiibai.com/)
 
 - [world hello](http://www.worldhello.net/doc/)
 
