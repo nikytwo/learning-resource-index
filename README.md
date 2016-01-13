@@ -43,6 +43,7 @@
 - [Jsoup学习笔记](https://github.com/code4craft/jsoup-learning)
 - [Jsoup Cookbook(中文版)](http://www.open-open.com/jsoup/)
 - [Reactor 指南中文版](http://projectreactor.mydoc.io/)
+- [RxJava Essentials 中文翻译](https://www.gitbook.com/book/yuxingxin/rxjava-essentials-cn/details)
 
 ### 2.2.1. Spring
 
@@ -116,16 +117,17 @@
 - [CoffeeScript中文手册](http://island205.com/tlboc/)
 - [AngularJS中文社区文档](http://angularjs.cn/tag/AngularJS)
 - [AngularJS学习笔记](https://www.gitbook.com/book/checkcheckzz/angularjs-learning-notes/details)
-- [React 入门教程](http://hulufei.gitbooks.io/react-tutorial/content/)
 - [Mithril 文档](https://www.gitbook.com/book/justjavac/mithriljs/details)
 - [Vue.js教程(官方中文)](http://cn.vuejs.org/guide/)
 - [Ext4.1.0 Doc中文版](http://extjs-doc-cn.github.io/ext4api/)
 - [requirejs中文](http://www.requirejs.cn/)
 - [Grunt中文文档](http://www.gruntjs.net/)
-- [react/webpack cookbook](https://fakefish.github.io/react-webpack-cookbook/)
 - [nodejs中文文档](https://www.gitbook.com/star/book/0532/nodejs)
 - [Discover Meteor 中文版](http://zh.discovermeteor.com/)
 - [Redux 中文文档](http://camsong.github.io/redux-in-chinese/)
+- [React&React Native生态-探索学习](https://github.com/icepy/Front-End-Develop-Guide/blob/master/React.md)
+- [React 入门教程](http://hulufei.gitbooks.io/react-tutorial/content/)
+- [react/webpack cookbook](https://fakefish.github.io/react-webpack-cookbook/)
 
 
 # 7. Web
