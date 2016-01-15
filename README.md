@@ -1,6 +1,7 @@
 # 0. 职业规划
 
 - [职业规划](http://www.w3school.com.cn/careers/career_tips.asp) `Done`
+- [程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/content/index.html)
 
 # 1. OS
 
@@ -128,6 +129,7 @@
 - [React&React Native生态-探索学习](https://github.com/icepy/Front-End-Develop-Guide/blob/master/React.md)
 - [React 入门教程](http://hulufei.gitbooks.io/react-tutorial/content/)
 - [react/webpack cookbook](https://fakefish.github.io/react-webpack-cookbook/)
+- [JavaScript Promise迷你书（中文版）](http://liubin.org/promises-book/)
 
 
 # 7. Web
