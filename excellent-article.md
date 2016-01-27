@@ -3,6 +3,8 @@
 
 ## 后端
 
+* [分布式Unique ID的生成方法一览](http://calvin1978.blogcn.com/articles/uuid.html)
+
 ### 服务器
 
 * [服务端开发那些事儿(七牛CEO许式伟)](http://mp.weixin.qq.com/s?__biz=MjM5NzAwNDI4Mg==&mid=400623317&idx=1&sn=5a9c5b75148dd308ff35eec6ae041cab)：锁的使用，模块化设计，服务器测试(工具)、可维护性。
