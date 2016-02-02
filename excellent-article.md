@@ -34,8 +34,8 @@
 
 * [如何学习React](https://github.com/petehunt/react-howto/blob/master/README-zh.md)
 * [一本浓缩的 React 煮书](https://blog.oyanglul.us/javascript/react-cookbook-mini.html)
-* 
+* [React的设计哲学-简单之美](http://www.infoq.com/cn/articles/react-art-of-simplity)
 
 ## 0. Other
 
-* [学习学习再学习前言](http://xiaolai.li/post/106391858120/%E5%AD%A6%E4%B9%A0%E5%AD%A6%E4%B9%A0%E5%86%8D%E5%AD%A6%E4%B9%A0%E5%89%8D%E8%A8%80)
+* [学习学习再学习前言](http://xiaolai.li/post/106391858120/%E5%AD%A6%E4%B9%A0%E5%AD%A6%E4%B9%A0%E5%86%8D%E5%AD%A6%E4%B9%A0%E5%89%8D%E8%A8%80): 摆脱负递归（急于求成），专家方式做事，最少够用知识，不懂也要读完，教是最好的学习，马太效应
