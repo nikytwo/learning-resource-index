@@ -29,7 +29,7 @@
 ## 2. 前端
 
 * [浏览器缓存知识小结及应用](http://www.cnblogs.com/lyzg/p/5125934.html)
-* 
+* [面向设计的半封装web组件开发](http://www.zhangxinxu.com/wordpress/2015/08/semi-package-web-component-development-for-design/): 
 
 ### 2.1. React
 
