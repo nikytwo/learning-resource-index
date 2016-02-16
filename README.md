@@ -211,7 +211,7 @@
 - [Gradle User Guide 中文版](https://www.gitbook.com/book/dongchuan/gradle-user-guide-/details)
 - [Gradle 实战](https://www.gitbook.com/star/book/lippiouyang/gradle-in-action-cn)
 - [Gradle 2 用户指南](https://www.gitbook.com/book/waylau/gradle-2-user-guide/details)
-- [Memcached教程](http://www.yiibai.com/memcached/)
+- [W3School Memcached 教程](http://www.kancloud.cn/wizardforcel/w3school-mc)
 - [开发 WebLogic Server 的 Web 应用程序、Servlet 和 JSP](http://edocs.weblogicfans.net/wls/docs92/webapp/index.html)
 - [Gitbook 使用入门](http://dockerpool.com/static/books/gitbook_cn/index.html)
 - [Elasticsearch权威指南（中文版）](https://www.gitbook.com/book/looly/elasticsearch-the-definitive-guide-cn)
@@ -293,6 +293,8 @@
 - [程序员手册大全](http://manual.51yip.com/)
 
 - [developerWorks 技术主题](http://www.ibm.com/developerworks/cn/topics/)
+
+- [看云](http://www.kancloud.cn/)
 
 - [啄木鸟社区 OpenBookProject -- 开放图书计划](http://wiki.woodpecker.org.cn/moin/OBP)
 
