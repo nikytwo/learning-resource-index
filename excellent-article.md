@@ -15,6 +15,7 @@
 * [从技术细节看美团的架构](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=408215395&idx=1&sn=cc49792ef0948a140c37d99306363774&scene=0#wechat_redirect)([视频地址](http://www.infoq.com/cn/presentations/see-meituan-architecture-from-technical-details#rd)): 构架是变化的，公共组件的提炼（以便专注业务），业务构架的优化（标准化，自动化），用户精准运营。
 * [每个架构师都应该研究下康威定律](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=408286995&idx=1&sn=1634698023c48b754d42af69cee2ab32&scene=0#wechat_redirect): 利益相关者，迭代、演化、反馈，与组织文化的关系
 
+
 ### 1.3. DB
 
 * [数据库软件架构设计些什么](http://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=400465735&idx=1&sn=8d7067de4cc8f73ea5558f07e0a9340e&scene=0#wechat_redirect): 由单库到集群，一致简单实现哈希一致的方法。
@@ -40,3 +41,7 @@
 
 * [学习学习再学习前言](http://xiaolai.li/post/106391858120/%E5%AD%A6%E4%B9%A0%E5%AD%A6%E4%B9%A0%E5%86%8D%E5%AD%A6%E4%B9%A0%E5%89%8D%E8%A8%80): 摆脱负递归（急于求成），专家方式做事，最少够用知识，不懂也要读完，教是最好的学习，马太效应
 * [程序员如何优雅度过一生的15个建议](http://www.jianshu.com/p/e15c1435675f): 启动项目，采取主动，抓住机遇，敢于冒险
+* [程序员的知识管理](http://blog.xiaohansong.com/2016/01/16/kownledge-Management/): 知识积累(笔记)->碎片整理(wiki)->思考加工(博客)
+* [作为一个软件工程师，在接下来的5-10年内应该掌握的技术](http://webres.wang/the-best-skill-set-to-have-for-the-next-5-10-years/): 基本原理(数据库、网络技术、编译器、数据结构、算法、操作系统),分析能力,问题分解(大化小)，工作优先级，团队合作，专注
+* [做技术，应该先有深度再谈广度](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=408703236&idx=1&sn=3f78abcca906d5edee06ff85b2d22416&scene=0#wechat_redirect): 架构的本质：抽象能力，分类能力，算法（性能）能力；跨界思维（开放、创新、发散）；架构师的软技能树 = 产品经理的软技能树 => 让正确的事情相继发生 => 持续地解决问题；主动学习和总结，承担责任和接受挑战，客观认识自己和学习他人；高效获取信息：活在当下，高信息熵和有传递价值，选择榜样并持续学习。
+* 
