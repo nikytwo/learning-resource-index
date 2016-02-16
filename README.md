@@ -257,6 +257,7 @@
 - [一步步搭建物联网系统](https://github.com/gmszone/designiot)
 - [OpenWrt智能、自动、透明'翻'墙'路由器教程](https://www.gitbook.com/book/softwaredownload/openwrt-fanqiang/details)
 - [Raspberry Pi memo](http://www.worldhello.net/doc/raspi-memo/index.html)
+- [MQTT协议中文版](https://mcxiaoke.gitbooks.io/mqtt-cn/content/)
 
 
 # 17. Other
