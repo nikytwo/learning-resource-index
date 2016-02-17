@@ -46,3 +46,4 @@
 * [做技术，应该先有深度再谈广度](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=408703236&idx=1&sn=3f78abcca906d5edee06ff85b2d22416&scene=0#wechat_redirect): 架构的本质：抽象能力，分类能力，算法（性能）能力；跨界思维（开放、创新、发散）；架构师的软技能树 = 产品经理的软技能树 => 让正确的事情相继发生 => 持续地解决问题；主动学习和总结，承担责任和接受挑战，客观认识自己和学习他人；高效获取信息：活在当下，高信息熵和有传递价值，选择榜样并持续学习。
 * [在高科技行业，只有失败者采用“业界最佳实践”](http://www.ituring.com.cn/tupubarticle/8160): 
 * [程序员，你的安全感呢？](http://www.linkedme.in/2015/10/12/how-developer-feel-safe): 拖延症,制作平衡表(你知道/你能影响/你不知道/你不能影响)，匹配外部期待和个人能力
+* [技术的执念](http://icodeit.org/2016/02/pitfall-of-technology/): 知识框架,过载处理（做减法、深入、优先级）
