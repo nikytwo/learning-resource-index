@@ -263,6 +263,7 @@
 
 # 17. Other
 
+- [各种安全相关思维导图整理收集](https://github.com/phith0n/Mind-Map)
 - [语义化版本(Semantic Versioning)规范](http://semver.org/lang/zh-CN/)
 - [UML](http://www.uml.org.cn/oobject/OObject.asp)
 - [API 参考手册大全](http://overapi.com/)
