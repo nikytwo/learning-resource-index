@@ -197,12 +197,16 @@
 
 ## 13.3 Other
 
+- [RabbitMQ中文](http://rabbitmq-into-chinese.readthedocs.org/zh_CN/latest/)
+- [gRPC 官方文档中文版](http://doc.oschina.net/grpc)
+- [Dubbo 官方文档](http://dubbo.io/Home-zh.htm)
 - [Apache Mesos 官方文档 V1.0(中文)](http://mesos.mydoc.io/)
 - [深入理解Nginx：模块开发与架构解析(1-3章)](http://book.51cto.com/art/201303/386555.htm)
 - [Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html)
 - [Nginx教程从入门到精通](http://www.ttlsa.com/nginx/nginx-stu-pdf/)(PDF版本，运维生存时间出品)
 - [Nginx 的官方中文文档](http://wiki.nginx.org/NginxChs)
 - [OpenResty最佳实践](https://www.gitbook.com/star/book/moonbingbing/openresty-best-practices)
+- [Jetty : 权威指南](http://ykgarfield.github.io/jetty-9.2.3.v20140905-zh/index.html)
 - [Tomcat 8 权威指南](http://wiki.jikexueyuan.com/project/tomcat/)
 - [Apache 中文手册](http://manual.51yip.com/ApacheMenu/index.html)
 - [Pro Git](http://git-scm.com/book/zh) `Done`
