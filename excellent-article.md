@@ -11,6 +11,8 @@
 
 * [从技术细节看美团的架构](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=408215395&idx=1&sn=cc49792ef0948a140c37d99306363774&scene=0#wechat_redirect)([视频地址](http://www.infoq.com/cn/presentations/see-meituan-architecture-from-technical-details#rd)): 构架是变化的，公共组件的提炼（以便专注业务），业务构架的优化（标准化，自动化），用户精准运营。
 * [每个架构师都应该研究下康威定律](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=408286995&idx=1&sn=1634698023c48b754d42af69cee2ab32&scene=0#wechat_redirect): 利益相关者，迭代、演化、反馈，与组织文化的关系
+* [大型网站架构技术一览](http://www.hollischuang.com/archives/1132)
+* [大型网站架构演化历程](http://www.hollischuang.com/archives/728)
 
 ### 1.1. 网络
 
