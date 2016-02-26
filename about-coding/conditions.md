@@ -80,15 +80,15 @@ if ('Male' === gendar) {
 if (rate < 0.37963) {
 	console.log("a1");
 } else if (rate < 0.39003) {
-	console.log("a1");
+	console.log("a2");
 } else if (rate < 0.48925) {
-	console.log("a1");
+	console.log("a3");
 } else if (rate < 0.51298) {
-	console.log("a1");
+	console.log("a4");
 } else if (rate < 0.55702) {
-	console.log("a1");
+	console.log("a5");
 } else if (rate < 0.61293) {
-	console.log("a1");
+	console.log("a6");
 } else if (rate < ...) {
 	// 其他
 	// ...
