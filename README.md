@@ -22,6 +22,8 @@
 
 ## 2.1. 基础
 
+- [Java 虚拟机规范](https://github.com/waylau/java-virtual-machine-specification)
+- [Java Servlet 3.1 规范](https://github.com/waylau/servlet-3.1-specification)
 - [Java资源大全中文版](https://github.com/jobbole/awesome-java-cn)([英文](https://github.com/akullpp/awesome-java))
 - [Google Java编程风格指南](http://www.hawstein.com/posts/google-java-style.html)
 - [Java正则表达式教程](http://www.java3z.com/cwbwebhome/article/article8/Regex/Java.Regex.Tutorial.html)
@@ -33,8 +35,11 @@
 - [Lucene教程](http://www.yiibai.com/lucene/)
 - [Apache Shiro 用户指南](https://www.gitbook.com/book/waylau/apache-shiro-1-2-x-reference/details)
 - [Jersey 2.x 用户指南](https://github.com/waylau/Jersey-2.x-User-Guide/blob/master/SUMMARY.md)
+- [REST 实战](https://github.com/waylau/rest-in-action)
 - [MyBatis中文文档](http://mybatis.github.io/mybatis-3/zh/index.html)
 - [Netty 4.x 用户指南](https://www.gitbook.com/book/waylau/netty-4-user-guide/details)
+- [Netty 实战(精髓)](http://waylau.com/essential-netty-in-action/)
+- [Apache MINA 2 用户指南](https://github.com/waylau/apache-mina-2.x-user-guide)
 - [Velocity 索引](http://wiki.hotoo.me/Velocity.html)
 - [PowerMock 使用](http://nikytwo.github.io/lib/2014/06/13/powermock-usage/) `Done`
 - [Java日期计算之Joda-Time](http://rensanning.iteye.com/blog/1546652)
@@ -45,6 +50,7 @@
 - [Jsoup Cookbook(中文版)](http://www.open-open.com/jsoup/)
 - [Reactor 指南中文版](http://projectreactor.mydoc.io/)
 - [RxJava Essentials 中文翻译](https://www.gitbook.com/book/yuxingxin/rxjava-essentials-cn/details)
+- [JSSE 参考指南](https://github.com/waylau/jsse-reference-guide)
 
 ### 2.2.1. Spring
 
@@ -168,6 +174,7 @@
 - [PostgreSQL 官方手册的中文翻译版本(9.5)](http://pgsqlcn.com)
 - [PostgreSQL 8.2.3 中文文档](http://works.jinbuguo.com/postgresql/menu823/index.html)
 - [MySQL 5.1参考手册](http://manual.51yip.com/mysql/index.html)
+- [H2 Database 教程](https://github.com/waylau/h2-database-doc)
 
 # 12. NoSQL
 
