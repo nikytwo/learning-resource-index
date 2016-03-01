@@ -131,8 +131,123 @@ if (notSummer(date)) {
 }
 ```
 
-#### 
+#### 合并条件表达式
 
+（略）
+
+#### 合并重复的条件片段
+
+（略）
+
+#### 移除控制标记
+
+* 使用`break`取代控制标记
+
+```js
+function checkSecurity(peoples) {
+	var found = false;
+	for (i = 0; i < peoples.length; i++) {
+		if (!found) {
+			if (people[i] === 'Don') {
+				sendAlert();
+				found = ture;
+			}
+		}
+	}
+}
+```
+
+改为：
+
+```js
+function checkSecurity(peoples) {
+	for (i = 0; i < peoples.length; i++) {
+		if (people[i] === 'Don') {
+			sendAlert();
+			break;
+		}
+	}
+}
+```
+
+* 使用`return`返回控制标记
+
+```js
+function checkSecurity(peoples) {
+	var found = '';
+	for (i = 0; i < peoples.length; i++) {
+		if (found === '') {
+			if (people[i] === 'Don') {
+				sendAlert();
+				found = 'Don';
+			}
+		}
+	}
+	someLaterCode(found);
+}
+```
+
+```js
+function checkSecurity(peoples) {
+	var found = foundMiscreant(people);
+	someLaterCode(found);
+}
+function foundMiscreant(peoples) {
+	for (i = 0; i < peoples.length; i++) {
+		if (people[i] === 'Don') {
+			sendAlert();
+			return 'Don';
+		}
+	}
+}
+```
+ 
+#### 以卫语句取代嵌套条件
+
+```js
+function getPayAmount() {
+	var result;
+	if (_isDead) {
+		result = deadAmount();
+	} else {
+		if (_isSeparated) {
+			result = separatedAmount();
+		} else {
+			if (_isRetired) {
+				result = retiredAmount();
+			} else {
+				result = normalPayAmount();
+			}
+		}
+	}
+	return result;
+}
+```
+
+改为：
+
+```js
+function getPayAmount() {
+	if (_isDead) return deadAmount();
+	if (_isSeparated) return separatedAmount();
+	if (_isRetired) return retiredAmount();
+	return normalPayAmount();
+}
+```
+
+#### 以多态取代条件表达式
+
+（略）
+
+#### 引入`Null`对象
+
+（略）
+
+#### 引入断言
+
+（略）
+
+***
 
 ## 参考
 
