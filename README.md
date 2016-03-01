@@ -22,12 +22,13 @@
 
 ## 2.1. 基础
 
+- [Google Java编程风格指南](http://www.hawstein.com/posts/google-java-style.html)
+- [Java 编程要点](https://github.com/waylau/essential-java)
 - [Java 虚拟机规范](https://github.com/waylau/java-virtual-machine-specification)
 - [Java Servlet 3.1 规范](https://github.com/waylau/servlet-3.1-specification)
-- [Java资源大全中文版](https://github.com/jobbole/awesome-java-cn)([英文](https://github.com/akullpp/awesome-java))
-- [Google Java编程风格指南](http://www.hawstein.com/posts/google-java-style.html)
 - [Java正则表达式教程](http://www.java3z.com/cwbwebhome/article/article8/Regex/Java.Regex.Tutorial.html)
 - [最最常用的 100 个 Java 类](http://www.oschina.net/news/55726/top-100-classes-used-in-java-projects)
+- [Java资源大全中文版](https://github.com/jobbole/awesome-java-cn)([英文](https://github.com/akullpp/awesome-java))
 
 ## 2.2. Lib/框架
 
