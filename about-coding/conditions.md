@@ -109,4 +109,32 @@ if (rate < 0.37963) {
 * 索引访问
 * 阶梯访问
 
+### 其他方法
 
+#### 分解条件表达式
+
+```js
+if (date.before(Summer_Start || date.after(Summer_End)) {
+	charge = quantity * _winterRate + _winterServiceCharge;
+} else {
+	charge = quantity * _summerRate;
+}
+```
+
+改为
+
+```js
+if (notSummer(date)) {
+	charge = winterCharge(quantity);
+} else {
+	charge = summerCharge(quantity);
+}
+```
+
+#### 
+
+
+## 参考
+
+* 《代码大全》
+* 《重构》
