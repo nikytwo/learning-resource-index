@@ -187,6 +187,8 @@ function checkSecurity(peoples) {
 }
 ```
 
+改为：
+
 ```js
 function checkSecurity(peoples) {
 	var found = foundMiscreant(people);
@@ -199,6 +201,101 @@ function foundMiscreant(peoples) {
 			return 'Don';
 		}
 	}
+}
+```
+
+更复杂的例子：
+
+```js
+public string WeiXin_WapBinding()
+{
+    string uiId = Session_User_InfoEntity.UI_ID;
+    string openId = Session_User_InfoEntity.Open_ID;
+    if (!string.IsNullOrEmpty(uiId) && !string.IsNullOrEmpty(openId))
+    {
+        string tmpUiId = User_InfoHandle.GetWeiXinUser(openId);
+        string oppen_id = User_InfoDAL.GetWeixinID(uiId);
+        int Mark = 0;//标记,为下边做区分
+        if (tmpUiId != "" && tmpUiId != uiId)
+        {
+            return "此微信id已被绑定,不能一个微信号绑定多个账户。";
+        }
+        else if (tmpUiId == uiId)//标记,为下边做区分(自己绑自己)
+        {
+            Mark = 1;
+        }
+
+        string WeiXinNick = "成功更换微信";
+        if (oppen_id == "")
+        {
+            WeiXinNick= "成功绑定微信";
+        }
+        
+        //绑定微信id--是否判断唯一微信id(目前不要求)
+        string result= WeiXin_WapBinding(Session_User_InfoEntity.NickName, openId, uiId);
+        //是否是虚拟推荐人.是关联推荐人记录表//是否是被推荐人.是关联推荐人记录表
+        if (Mark == 0 && WeiXinNick != "成功绑定微信")//不是自己绑自己原有的微信id,并且不是首次绑定,才可以删除重复数据
+        {
+            //删除重复的推荐人虚拟id
+            USER_WEIXIN_TOTALDAL.GetRecommendOpendId(open_Id);
+        }
+        if (WeiXinNick == "成功绑定微信")
+        {
+            //是否是虚拟推荐人.是关联推荐人记录表
+            USER_WEIXIN_TOTALDAL.SetRelateTotal(open_Id, User_Id);
+        }
+        else//再次绑定
+        {
+            USER_WEIXIN_TOTALDAL.UpdateRelateTotal(open_Id, User_Id);
+        }
+        
+        return result != "操作失败" ? "成功" : result;
+    }
+    else
+    {
+        return "系统不能检测到您当前的微信！";
+    }
+}
+```
+
+改为:
+
+```js
+public string WeiXin_WapBinding()
+{
+    string uiId = Session_User_InfoEntity.UI_ID;
+    string openId = Session_User_InfoEntity.Open_ID;
+
+    if (string.IsNullOrEmpty(uiId) || string.IsNullOrEmpty(openId))
+    {
+        return "系统不能检测到您当前的微信！";
+    }
+    string uiIdOfCurWeixin = User_InfoHandle.GetWeiXinUser(openId);
+    if ("" != uiIdOfCurWeixin && uiIdOfCurWeixin != uiId)
+    {
+        return "此微信id已被绑定,不能一个微信号绑定多个账户。";
+    }
+        
+    string openIdOfCurUser = User_InfoDAL.GetWeixinID(uiId);
+    string result = WeiXin_WapBinding(Session_User_InfoEntity.NickName, openId, uiId);
+    if (openIdOfCurUser == "")
+    {
+        //是否是虚拟推荐人.是关联推荐人记录表
+        USER_WEIXIN_TOTALDAL.SetRelateTotal(open_Id, User_Id);
+    }
+    else if (uiIdOfCurWeixin == "")
+    {
+        //删除重复的推荐人虚拟id
+        USER_WEIXIN_TOTALDAL.GetRecommendOpendId(open_Id);
+        USER_WEIXIN_TOTALDAL.UpdateRelateTotal(open_Id, User_Id);
+    }
+    else
+    {
+        // 待绑定的微信号与已绑定的微信号相同
+        USER_WEIXIN_TOTALDAL.UpdateRelateTotal(open_Id, User_Id);
+    }
+
+    return result != "操作失败" ? "成功" : result;
 }
 ```
  
