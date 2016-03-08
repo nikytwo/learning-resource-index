@@ -27,6 +27,7 @@
 
 * [从零开始搭建架构实施Android项目](http://www.cnblogs.com/lao-liang/p/5122425.html): App工程结构，轮子（第三方库）
 * [阅读 Android 源码的一些姿势](http://zhuanlan.zhihu.com/kaede/20564614): Andriod 核心类,第三方开源项目
+* [移动网络下的性能优化之省电篇](https://blog.wilddog.com/?p=948): 合并请求、预取数据、避免轮询、重连机制（心跳）
 
 ## 2. 前端
 
