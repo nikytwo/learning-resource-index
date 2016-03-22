@@ -44,6 +44,7 @@
 ## 3. 工程
 
 * [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html): 规范 commit message，自动生成 Change log
+* [优秀的Java程序测试是什么样的？](http://www.codeceo.com/article/good-java-test.html): 表达清晰
 
 
 ## 0. Other
