@@ -15,23 +15,73 @@
 
 ### 高质量函数
 
-* 好名字
-* 只做一件事
+* 短小：函数第一规则是要短小，第二规则是**还要更短小**
+* 好名字：详见《代码整洁之道》第2章，《代码大全》
+    - 别害怕长名字
+	- 别害怕花时间取名字
+* 只做一件事：做好这件事，只做这件事
+
+> 每个函数一个抽象层次
+
+```java
+
+```
+
 * 参数
     - 顺序
 	- 名字
 	- 数量，7是个很神奇的数字，让你的参数保持在7个以内。(《代码整洁之道》则为 4)
-	- 不要作为工作变量
-* 嵌套层
+	- 不要使用标识参数
+	- 不要作为工作变量（输入参数）
+	- 不要使用输出参数
+* 嵌套层：不该多于两层
+* 无副作用：
+
+```java
+public boolean checkPassword(string name, string password){
+	User user = UserRepository.findByName(name);
+	if (null != user) {
+		string codePhrase = user.getPhraseEncodeByPassword();
+		string phrase = cryptographer.decrypt(codePhrase, password);
+		if ("Valiad Password".equals(phrase)) {
+			Session.initialize();
+			return true;
+		}
+	}
+	return false;
+}
+```
+
+* 分隔指令与询问：函数要么做什么事，要么回答什么事
+
+```java
+public boolean set(string attribute, string value);
+
+if (set("username", "unclebob")){
+	// ...
+}
+```
+
+```java
+if (attributeExists("username")){
+	setAttribute("username", "unclebob");
+	// ...
+}
+```
+
+* 使用异常代替返回错误码：见[提供代码质量：错误处理与异常](./about-coding/exceptions.md)
+
 
 
 ### 改进函数的其他方法
 
-* 优化复杂表达式（见[提供代码质量：表达式](./conditions.md)）
+* 优化复杂表达式（见[提供代码质量：表达式](./about-coding/conditions.md)）
 * 减少变量
 * 变量跨度（生存代码行数）
 * 减小变量作用域
+* 相关操作放在一起
 * 使用不可变的变量
+* 正确处理异常（见[提供代码质量：错误处理与异常](./about-coding/exceptions.md)）
 
 
 
@@ -53,7 +103,7 @@
 
 示例：
 
-```
+```java
 public void example() {
     if (a == b) {
 		if (a1 == b1) {
@@ -106,9 +156,20 @@ public void example() {
 所有函数不能超过80行！
 
 
+
+### 最后的最后
+
+**大师级程序员把系统当作故事来讲**，而不是当作程序来写！
+
+
+
 ### 其他
 
-关于注释：见[提供代码质量：注释](./comments.md)
+关于注释：见[提供代码质量：注释](./about-coding/comments.md)
+
+关于异常处理：见[提供代码质量：错误处理与异常](./about-coding/exceptions.md)
+
+关于复杂表达式：见[提供代码质量：表达式](./about-coding/conditions.md)
 
 
 ***
@@ -116,3 +177,7 @@ public void example() {
 ## 参考
 
 * [提高代码质量：如何编写函数](http://luopq.com/2016/02/21/write-good-function/)
+* 《代码大全》
+* 《代码整洁之道》
+* 《编写可读代码的艺术》
+
