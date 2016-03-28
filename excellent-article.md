@@ -33,6 +33,7 @@
 
 * [移动H5前端性能优化指南](https://isux.tencent.com/h5-performance.html): 加载优化，图片优化，脚本优化，css优化，渲染优化
 * [浏览器缓存知识小结及应用](http://www.cnblogs.com/lyzg/p/5125934.html): 强缓存，协商缓存
+* [动态加载js文件的正确姿势](https://github.com/someus/how-to-load-dynamic-script)
 * [面向设计的半封装web组件开发](http://www.zhangxinxu.com/wordpress/2015/08/semi-package-web-component-development-for-design/): 
 
 ### 2.1. React
