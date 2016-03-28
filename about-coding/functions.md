@@ -23,7 +23,19 @@
 
 > 每个函数一个抽象层次
 
-```java
+```python
+def save
+	business = Business();
+	business.name = request.POST["name"];
+
+	url_path_name = business.name.lower();
+	url_path_name = re.sub(r"['\.']", "", url_path_name);
+	url_path_name = re.sub(r"[^a-z0-9]+", "-", url_path_name);
+	url_path_name = url_path_name.strip("-");
+	business.url = "/biz/" + url_path_name;
+
+	business.date_create = datetime.utcnow();
+	business.save_to_datebase();
 
 ```
 
@@ -76,6 +88,7 @@ if (attributeExists("username")){
 ### 改进函数的其他方法
 
 * 优化复杂表达式（见[提供代码质量：表达式](./about-coding/conditions.md)）
+* 抽取子函数：详见《编写可读代码的艺术》第10章
 * 减少变量
 * 变量跨度（生存代码行数）
 * 减小变量作用域
