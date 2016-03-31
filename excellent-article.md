@@ -4,32 +4,40 @@
 
 ## 1. 后端
 
+### 1.0. Other
+
 * [分布式Unique ID的生成方法一览](http://calvin1978.blogcn.com/articles/uuid.html)
 * [服务端开发那些事儿(七牛CEO许式伟)](http://mp.weixin.qq.com/s?__biz=MjM5NzAwNDI4Mg==&mid=400623317&idx=1&sn=5a9c5b75148dd308ff35eec6ae041cab)：锁的使用，模块化设计，服务器测试(工具)、可维护性。
 
-### 1.1. 架构
+### 1.1. 基础
+
+* [40个Java集合面试问题和答案](http://www.sanesee.com/article/40-java-collections-interview-questions-and-answers)
+
+### 1.2. 架构
 
 * [从技术细节看美团的架构](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=408215395&idx=1&sn=cc49792ef0948a140c37d99306363774&scene=0#wechat_redirect)([视频地址](http://www.infoq.com/cn/presentations/see-meituan-architecture-from-technical-details#rd)): 构架是变化的，公共组件的提炼（以便专注业务），业务构架的优化（标准化，自动化），用户精准运营。
 * [每个架构师都应该研究下康威定律](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=408286995&idx=1&sn=1634698023c48b754d42af69cee2ab32&scene=0#wechat_redirect): 利益相关者，迭代、演化、反馈，与组织文化的关系
 * [大型网站架构技术一览](http://www.hollischuang.com/archives/1132)
 * [大型网站架构演化历程](http://www.hollischuang.com/archives/728)
 
-### 1.1. 网络
+### 1.3. 网络
 
 * [简明网络I/O模型---同步异步阻塞非阻塞之惑](http://www.jianshu.com/p/55eb83d60ab1): 5种I/O模型比较图
 
-### 1.3. DB
+### 1.4. DB
 
-* [数据库软件架构设计些什么](http://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=400465735&idx=1&sn=8d7067de4cc8f73ea5558f07e0a9340e&scene=0#wechat_redirect): 由单库到集群，一致简单实现哈希一致的方法。
+* [数据库软件架构设计些什么](http://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=400465735&idx=1&sn=8d7067de4cc8f73ea5558f07e0a9340e&scene=0#wechat_redirect): 由单库到集群，简单实现哈希一致的方法。
 * 
 
-### 1.4. 移动开发
+### 1.5. 移动开发
 
 * [从零开始搭建架构实施Android项目](http://www.cnblogs.com/lao-liang/p/5122425.html): App工程结构，轮子（第三方库）
 * [阅读 Android 源码的一些姿势](http://zhuanlan.zhihu.com/kaede/20564614): Andriod 核心类,第三方开源项目
 * [移动网络下的性能优化之省电篇](https://blog.wilddog.com/?p=948): 合并请求、预取数据、避免轮询、重连机制（心跳）
 
 ## 2. 前端
+
+### 2.0. Other
 
 * [移动H5前端性能优化指南](https://isux.tencent.com/h5-performance.html): 加载优化，图片优化，脚本优化，css优化，渲染优化
 * [浏览器缓存知识小结及应用](http://www.cnblogs.com/lyzg/p/5125934.html): 强缓存，协商缓存
