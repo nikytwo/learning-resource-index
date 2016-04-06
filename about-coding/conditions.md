@@ -347,9 +347,8 @@ function getPayAmount() {
 ***
 
 ## 参考
-
-* 《代码大全》
-* 《编写可读代码的艺术》
-* 《代码整洁之道》
-* 《修改代码的艺术》
-* 《重构》
+* [《代码大全》](https://book.douban.com/subject/1477390/)
+* [《代码整洁之道》](https://book.douban.com/subject/4199741/)
+* [《编写可读代码的艺术》](https://book.douban.com/subject/10797189/)
+* [《修改代码的艺术》](https://book.douban.com/subject/2248759/)
+* [《重构》](https://book.douban.com/subject/4262627/)
