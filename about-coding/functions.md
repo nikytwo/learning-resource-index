@@ -43,16 +43,19 @@ def save
     - 顺序
 	- 名字
 	- 数量，7是个很神奇的数字，让你的参数保持在7个以内。(《代码整洁之道》则为 4)
+	- 不要使用标识参数
+	- 不要作为工作变量（输入参数）
+	- 不要使用输出参数
 
 ```csharp
+// 参数过多
 public static ResultState InsertMessageInfo1(string UI_ID, string trueName, string idCardNO, string mobile, 
             string SN_ID, string parms, string APP_Code, int? APP_Type, int Send_State, int ValidateTime, 
             ref decimal Send_ID, string Gather, int payType, string use, string orderNo, params bool[] arrSendState)
 ```
 
-	- 不要使用标识参数
-
 ```java
+// 使用标识参数
 public void render(bool isSuite){
 	// ...
 }
@@ -67,9 +70,8 @@ public void renderForSingle(){
 
 ```
 
-	- 不要作为工作变量（输入参数）
-
 ```java
+// 作为工作变量（输入参数）
 public void doSomething(string args){
 	// do some thing
 	args = ...
@@ -77,9 +79,9 @@ public void doSomething(string args){
 	return args;
 }
 ```
-	- 不要使用输出参数
 
 ```csharp
+// 使用输出参数
 GetInfoData(num, ref infoList, ref user);
 
 // 改为
