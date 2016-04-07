@@ -23,7 +23,7 @@
 
 > 每个函数一个抽象层次
 
-```python
+```py
 def save
 	business = Business();
 	business.name = request.POST["name"];
