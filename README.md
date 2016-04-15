@@ -265,7 +265,11 @@
 - [Android官方培训课程中文版](http://wiki.jikexueyuan.com/project/android-training-geek/)
 
 
-# 16. 硬件相关
+# 16. 运维
+
+- [开源监控系统中 Zabbix 和 Nagios 哪个更好？](http://www.zhihu.com/question/19973178)
+
+# 17. 硬件相关
 
 - [一步步搭建物联网系统](https://github.com/gmszone/designiot)
 - [OpenWrt智能、自动、透明'翻'墙'路由器教程](https://www.gitbook.com/book/softwaredownload/openwrt-fanqiang/details)
