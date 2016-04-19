@@ -158,6 +158,7 @@
 
 # 9. Go
 
+- [Golang标准库文档(版本1.3.3)](http://godoc.ml/)
 - [Go资源大全(en)](https://github.com/avelino/awesome-go)
 - [Go编程基础](https://github.com/Unknwon/go-fundamental-programming)
 - [学习Go语言](http://mikespook.com/learning-go/) `Done`
