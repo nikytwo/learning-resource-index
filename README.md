@@ -35,6 +35,7 @@
 - [Google Guava 官方教程](http://wiki.jikexueyuan.com/project/google-guava-official-tutorial/)
 - [Lucene教程](http://www.yiibai.com/lucene/)
 - [Apache Shiro 用户指南](https://www.gitbook.com/book/waylau/apache-shiro-1-2-x-reference/details)
+- [跟我学Shiro](https://github.com/zhangkaitao/shiro-example)
 - [Jersey 2.x 用户指南](https://github.com/waylau/Jersey-2.x-User-Guide/blob/master/SUMMARY.md)
 - [REST 实战](https://github.com/waylau/rest-in-action)
 - [MyBatis中文文档](http://mybatis.github.io/mybatis-3/zh/index.html)
@@ -97,6 +98,7 @@
 
 # 5. dotNet
 
+- [.NET 技术栈](https://github.com/unruledboy/DotNetStack)
 - [实体框架 (EF) 入门](https://msdn.microsoft.com/zh-cn/data/ee712907)
 - [moq](https://github.com/Moq/moq4)
 - [MVVMLight](http://www.galasoft.ch/mvvm)
@@ -206,7 +208,7 @@
 
 ## 13.3 Other
 
-- [RabbitMQ中文](http://rabbitmq-into-chinese.readthedocs.org/zh_CN/latest/)
+- [RabbitMQ中文 链接1](http://rabbitmq-into-chinese.readthedocs.org/zh_CN/latest/)，[链接2](https://github.com/mr-ping/RabbitMQ_into_Chinese)
 - [gRPC 官方文档中文版](http://doc.oschina.net/grpc)
 - [Dubbo 官方文档](http://dubbo.io/Home-zh.htm)
 - [Apache Mesos 官方文档 V1.0(中文)](http://mesos.mydoc.io/)
