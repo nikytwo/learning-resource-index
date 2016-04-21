@@ -143,7 +143,8 @@
 
 # 7. Web
 
-- [http://island205.github.io/Single-Page-App-Break/index.html](http://island205.github.io/Single-Page-App-Break/index.html)
+- [腾讯移动Web前端知识库](https://github.com/AlloyTeam/Mars)
+- [单页应用开发权威指南](http://island205.github.io/Single-Page-App-Break/index.html)
 - [前端开发者手册](https://dwqs.gitbooks.io/frontenddevhandbook/content/index.html)
 - [前端开发知识结构](http://html5ify.com/fks)
 - [前端开发笔记本](https://www.gitbook.com/star/book/li-xinyang/frontend-notebook)
