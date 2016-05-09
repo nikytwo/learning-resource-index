@@ -176,6 +176,7 @@
 
 # 11. DB
 
+- [MySQL 资源大全中文版](https://github.com/jobbole/awesome-mysql-cn)
 - [PostgreSQL 官方手册的中文翻译版本(9.5)](http://pgsqlcn.com)
 - [PostgreSQL 8.2.3 中文文档](http://works.jinbuguo.com/postgresql/menu823/index.html)
 - [MySQL 5.1参考手册](http://manual.51yip.com/mysql/index.html)
