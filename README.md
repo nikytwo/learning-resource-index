@@ -210,7 +210,7 @@
 
 ## 13.3 Other
 
-- [RabbitMQ中文 链接1](http://rabbitmq-into-chinese.readthedocs.org/zh_CN/latest/)，[链接2](https://github.com/mr-ping/RabbitMQ_into_Chinese)
+- [RabbitMQ中文 链接1](http://rabbitmq.mr-ping.com/)，[链接2](https://github.com/mr-ping/RabbitMQ_into_Chinese)
 - [gRPC 官方文档中文版](http://doc.oschina.net/grpc)
 - [Dubbo 官方文档](http://dubbo.io/Home-zh.htm)
 - [Apache Mesos 官方文档 V1.0(中文)](http://mesos.mydoc.io/)
