@@ -35,6 +35,7 @@
 - [Google Guava 官方教程](http://wiki.jikexueyuan.com/project/google-guava-official-tutorial/)
 - [Lucene教程](http://www.yiibai.com/lucene/)
 - [Apache Shiro 用户指南](https://www.gitbook.com/book/waylau/apache-shiro-1-2-x-reference/details)
+- [跟我学Shiro](https://github.com/zhangkaitao/shiro-example)
 - [Jersey 2.x 用户指南](https://github.com/waylau/Jersey-2.x-User-Guide/blob/master/SUMMARY.md)
 - [REST 实战](https://github.com/waylau/rest-in-action)
 - [MyBatis中文文档](http://mybatis.github.io/mybatis-3/zh/index.html)
@@ -97,6 +98,7 @@
 
 # 5. dotNet
 
+- [.NET 技术栈](https://github.com/unruledboy/DotNetStack)
 - [实体框架 (EF) 入门](https://msdn.microsoft.com/zh-cn/data/ee712907)
 - [moq](https://github.com/Moq/moq4)
 - [MVVMLight](http://www.galasoft.ch/mvvm)
@@ -141,7 +143,8 @@
 
 # 7. Web
 
-- [http://island205.github.io/Single-Page-App-Break/index.html](http://island205.github.io/Single-Page-App-Break/index.html)
+- [腾讯移动Web前端知识库](https://github.com/AlloyTeam/Mars)
+- [单页应用开发权威指南](http://island205.github.io/Single-Page-App-Break/index.html)
 - [前端开发者手册](https://dwqs.gitbooks.io/frontenddevhandbook/content/index.html)
 - [前端开发知识结构](http://html5ify.com/fks)
 - [前端开发笔记本](https://www.gitbook.com/star/book/li-xinyang/frontend-notebook)
@@ -158,6 +161,7 @@
 
 # 9. Go
 
+- [Golang标准库文档(版本1.3.3)](http://godoc.ml/)
 - [Go资源大全(en)](https://github.com/avelino/awesome-go)
 - [Go编程基础](https://github.com/Unknwon/go-fundamental-programming)
 - [学习Go语言](http://mikespook.com/learning-go/) `Done`
@@ -172,6 +176,7 @@
 
 # 11. DB
 
+- [MySQL 资源大全中文版](https://github.com/jobbole/awesome-mysql-cn)
 - [PostgreSQL 官方手册的中文翻译版本(9.5)](http://pgsqlcn.com)
 - [PostgreSQL 8.2.3 中文文档](http://works.jinbuguo.com/postgresql/menu823/index.html)
 - [MySQL 5.1参考手册](http://manual.51yip.com/mysql/index.html)
@@ -205,7 +210,7 @@
 
 ## 13.3 Other
 
-- [RabbitMQ中文](http://rabbitmq-into-chinese.readthedocs.org/zh_CN/latest/)
+- [RabbitMQ中文 链接1](http://rabbitmq.mr-ping.com/)，[链接2](https://github.com/mr-ping/RabbitMQ_into_Chinese)
 - [gRPC 官方文档中文版](http://doc.oschina.net/grpc)
 - [Dubbo 官方文档](http://dubbo.io/Home-zh.htm)
 - [Apache Mesos 官方文档 V1.0(中文)](http://mesos.mydoc.io/)
@@ -265,7 +270,11 @@
 - [Android官方培训课程中文版](http://wiki.jikexueyuan.com/project/android-training-geek/)
 
 
-# 16. 硬件相关
+# 16. 运维
+
+- [开源监控系统中 Zabbix 和 Nagios 哪个更好？](http://www.zhihu.com/question/19973178)
+
+# 17. 硬件相关
 
 - [一步步搭建物联网系统](https://github.com/gmszone/designiot)
 - [OpenWrt智能、自动、透明'翻'墙'路由器教程](https://www.gitbook.com/book/softwaredownload/openwrt-fanqiang/details)
