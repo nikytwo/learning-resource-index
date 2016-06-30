@@ -11,6 +11,8 @@
 
 ### 1.1. 基础
 
+* [互联网新人如何入门和掌握 Java 开发](https://zhuanlan.zhihu.com/p/21371311?refer=notageek): 没看的看，看过的再看
+* [服务端技术选型](http://xielong.me/2015/04/17/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B/): 小米在用的技术
 * [40个Java集合面试问题和答案](http://www.sanesee.com/article/40-java-collections-interview-questions-and-answers)
 * [如何更好的使用 Java](http://blog.smoker.cc/translation/20160511.html)
 * [HashMap深度分析](http://www.jianshu.com/p/8b372f3a195d)
