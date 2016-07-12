@@ -32,6 +32,7 @@
 
 * [数据库软件架构设计些什么](http://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=400465735&idx=1&sn=8d7067de4cc8f73ea5558f07e0a9340e&scene=0#wechat_redirect): 由单库到集群，简单实现哈希一致的方法。
 * [如果有人问你数据库的原理，叫他看这篇文章](http://blog.jobbole.com/100349/): 
+* [20 个数据库设计最佳实践](http://www.oschina.net/question/28_37512)
 * 
 
 ### 1.5. 移动开发
@@ -72,3 +73,4 @@
 * [在高科技行业，只有失败者采用“业界最佳实践”](http://www.ituring.com.cn/tupubarticle/8160): 
 * [程序员，你的安全感呢？](http://www.linkedme.in/2015/10/12/how-developer-feel-safe): 拖延症,制作平衡表(你知道/你能影响/你不知道/你不能影响)，匹配外部期待和个人能力
 * [技术的执念](http://icodeit.org/2016/02/pitfall-of-technology/): 知识框架,过载处理（做减法、深入、优先级）
+* [程序员技术练级攻略](http://coolshell.cn/articles/4990.html)
