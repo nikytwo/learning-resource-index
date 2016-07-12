@@ -32,6 +32,7 @@
 
 * [数据库软件架构设计些什么](http://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=400465735&idx=1&sn=8d7067de4cc8f73ea5558f07e0a9340e&scene=0#wechat_redirect): 由单库到集群，简单实现哈希一致的方法。
 * [如果有人问你数据库的原理，叫他看这篇文章](http://blog.jobbole.com/100349/): 
+* [20 个数据库设计最佳实践](http://www.oschina.net/question/28_37512)
 * 
 
 ### 1.5. 移动开发
