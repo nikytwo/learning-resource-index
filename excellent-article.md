@@ -23,9 +23,10 @@
 * [每个架构师都应该研究下康威定律](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=408286995&idx=1&sn=1634698023c48b754d42af69cee2ab32&scene=0#wechat_redirect): 利益相关者，迭代、演化、反馈，与组织文化的关系。
 * [大型网站架构技术一览](http://www.hollischuang.com/archives/1132)
 * [大型网站架构演化历程](http://www.hollischuang.com/archives/728)
-* [电商前端交易型系统设计原则](http://jinnianshilongnian.iteye.com/blog/2312284):使用状态机处理订单状态，使用日志（redis）+ task 进行流量缓冲、等幂（防重）等。
+* [电商前端交易型系统设计原则](http://jinnianshilongnian.iteye.com/blog/2312284):使用状态机处理订单状态，使用日志(redis)+task 进行流量缓冲、等幂（防重）等。
 * [分布式系统设计的求生之路](http://wetest.qq.com/lab/view/105.html): 消息中间件的通信模式（req/rep,pub/sub,push/pull,dealer/router）、自定义消息协议。
 * [设计消息中间件时我关心什么?](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653547492&idx=1&sn=be78ff0389fd5a8d8991abc567a191e2&scene=0#wechat_redirect): 数据一致性（事务+task、两段提交），隔离、治理。
+* [消息队列设计精要](http://tech.meituan.com/mq-design.html): 应用场景：解耦、数据一致性（日志+task）、广播、错峰与流控，功能：...
 
 ### 1.3. 网络
 
