@@ -12,6 +12,7 @@
 - [Docker中文指南](http://www.widuu.com/chinese_docker/index.html) `Done`
 - [Docker —— 从入门到实践](https://www.gitbook.com/book/yeasy/docker_practice/details) `Done`
 - [shipyard中文文档](http://dockerpool.com/static/books/shipyard_doc/index.html)
+- [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 - [shell手册](http://manual.51yip.com/shell/index.html)
 - [Shell 编程范例](https://www.gitbook.com/star/book/tinylab/shellbook)
 - [PowerShell 在线教程](http://www.pstips.net/powershell-online-tutorials)
