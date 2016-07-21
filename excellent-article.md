@@ -8,6 +8,9 @@
 
 * [分布式Unique ID的生成方法一览](http://calvin1978.blogcn.com/articles/uuid.html)
 * [服务端开发那些事儿(七牛CEO许式伟)](http://mp.weixin.qq.com/s?__biz=MjM5NzAwNDI4Mg==&mid=400623317&idx=1&sn=5a9c5b75148dd308ff35eec6ae041cab)：锁的使用，模块化设计，服务器测试(工具)、可维护性。
+* [关于分布式事务、两阶段提交协议、三阶提交协议](http://blog.jobbole.com/95632/)
+* [学习笔记：The Log（我所读过的最好的一篇分布式技术文章）](http://blog.jobbole.com/88301/)
+* [分布式系统阅读清单](http://blog.jobbole.com/84575/)
 
 ### 1.1. 基础
 
