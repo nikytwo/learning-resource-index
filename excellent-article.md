@@ -56,6 +56,7 @@
 * [浏览器缓存知识小结及应用](http://www.cnblogs.com/lyzg/p/5125934.html): 强缓存，协商缓存
 * [动态加载js文件的正确姿势](https://github.com/someus/how-to-load-dynamic-script)
 * [面向设计的半封装web组件开发](http://www.zhangxinxu.com/wordpress/2015/08/semi-package-web-component-development-for-design/): 
+* [做一个高效的前端攻程狮之经验总结](http://www.imooc.com/article/1974)
 
 ### 2.1. React
 
