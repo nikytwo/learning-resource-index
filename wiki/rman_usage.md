@@ -43,9 +43,76 @@
 须进行备份后删除（使用 RMAN）或扩大闪回区大小。数据库才能继续提供服务。
 
 
+综上，服务器若运行在归档模式下，则必须进行归档日志备份，
+否则会因重做日志写满或归档日志满而导致数据库无法提供服务。
+
+
 ## 备份
 
-	// todo
+### 脚本及说明
+
+文件`backupLv0.bat`: 为 window 下的批处理文件，其调用 rman 脚本进行全库备份(0级)。
+
+```shell
+# 设置数据库sid
+set oracle_sid=orcl
+set y=%date:~0,4%
+set m=%date:~5,2%
+set d=%date:~8,2%
+if "%time:~0,2%" lss "10" (set h=0%time:~1,1%) else (set h=%time:~0,2%)
+set mi=%time:~3,2%
+set s=%time:~6,2%
+# 调用 rman 脚本
+rman target / log='%y%%m%%d%_%h%%mi%%s%.log' cmdfile='backupWithRmanLv0.rman'
+```
+
+文件`backupWithRmanLv0.rman`: 为 rman 备份脚本
+
+```rman
+run{
+    # 备份集保留策略，保留14天内的备份
+    configure retention policy to recovery window of 14 days;
+
+    # 设置自动备份控制文件及路径
+	configure controlfile autobackup on;
+	configure controlfile autobackup format for device type disk to "F:/OracleBackup/rman/ctrl_%F.bak";
+
+    # 设置备份集通道和路径，表空间全备份（0级），同时备份归档日志，完成后删除已备份的归档日志
+	allocate channel ch1 device type disk format "F:/OracleBackup/rman/%d_%T_%t.bak";
+	backup incremental level=0 tablespace ELBONLINE_DATA skip inaccessible
+	    plus archivelog
+		delete all input;
+	release channel ch1;
+}
+allocate channel for maintenance device type disk;
+crosscheck backupset;
+delete noprompt obsolete;
+```
+
+以上脚本为0级备份脚本，1级备份请修改 rman 脚本中的相关参数(`level=*`)。
+关于备份级别，请参考下文。
+
+### 备份时间
+
+备份时间由系统执行计划进行设置。（注意全局与差异备份应有时间差，否则同时执行会影响备份执行时间和数据库性能）
+
+
+### 关于增量备份
+
+Oracle 的增量备份是通过备份级别实现的。
+
+level 0 级是对数据库的全库备份，增量备份必须从 0 级开始。然后才有 1，2，3，4 级。
+
+rman 增量备份分为差异增量备份(默认)和累积增量备份。
+
+**差异增量备份**示例：
+
+我们在星期天执行0级差异增量备份操作，这个备份操作会备份整个数据库。
+根据这个0级备份，我们在星期一执行1级差异增量备份操作。该备份操作将备份自周日0级备份以来所有发生变化的数据块。
+在周二时1级增量备份将备份所有自周一1级备份以来发生变化的数据块。
+如果要执行恢复操作，就需要星期一、星期二生成的备份以及星期天生成的基本备份。
+
+更多相关信息查看文章最后链接。
 
 
 ## 恢复
@@ -190,3 +257,4 @@ run {
 
 * 《涂抹Oracle》
 * [Oracle RMAN 使用详解](http://www.linuxidc.com/Linux/2011-04/35279.htm)
+* [Oracle数据库备份与恢复 - 增量备份](http://blog.csdn.net/pan_tian/article/details/46780929)
