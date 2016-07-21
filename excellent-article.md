@@ -20,9 +20,12 @@
 ### 1.2. 架构
 
 * [从技术细节看美团的架构](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=408215395&idx=1&sn=cc49792ef0948a140c37d99306363774&scene=0#wechat_redirect)([视频地址](http://www.infoq.com/cn/presentations/see-meituan-architecture-from-technical-details#rd)): 构架是变化的，公共组件的提炼（以便专注业务），业务构架的优化（标准化，自动化），用户精准运营。
-* [每个架构师都应该研究下康威定律](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=408286995&idx=1&sn=1634698023c48b754d42af69cee2ab32&scene=0#wechat_redirect): 利益相关者，迭代、演化、反馈，与组织文化的关系
+* [每个架构师都应该研究下康威定律](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=408286995&idx=1&sn=1634698023c48b754d42af69cee2ab32&scene=0#wechat_redirect): 利益相关者，迭代、演化、反馈，与组织文化的关系。
 * [大型网站架构技术一览](http://www.hollischuang.com/archives/1132)
 * [大型网站架构演化历程](http://www.hollischuang.com/archives/728)
+* [电商前端交易型系统设计原则](http://jinnianshilongnian.iteye.com/blog/2312284):使用状态机处理订单状态，使用日志（redis）+ task 进行流量缓冲、等幂（防重）等。
+* [分布式系统设计的求生之路](http://wetest.qq.com/lab/view/105.html): 消息中间件的通信模式（req/rep,pub/sub,push/pull,dealer/router）、自定义消息协议。
+* [设计消息中间件时我关心什么?](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653547492&idx=1&sn=be78ff0389fd5a8d8991abc567a191e2&scene=0#wechat_redirect): 数据一致性（事务+task、两段提交），隔离、治理。
 
 ### 1.3. 网络
 
@@ -74,3 +77,4 @@
 * [程序员，你的安全感呢？](http://www.linkedme.in/2015/10/12/how-developer-feel-safe): 拖延症,制作平衡表(你知道/你能影响/你不知道/你不能影响)，匹配外部期待和个人能力
 * [技术的执念](http://icodeit.org/2016/02/pitfall-of-technology/): 知识框架,过载处理（做减法、深入、优先级）
 * [程序员技术练级攻略](http://coolshell.cn/articles/4990.html)
+* [最容易被忽略的三种学习方式](http://www.gtdlife.com/2016/4376/three-study-way/): 模仿、心态、信任
