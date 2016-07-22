@@ -9,15 +9,15 @@
 * [分布式Unique ID的生成方法一览](http://calvin1978.blogcn.com/articles/uuid.html)
 * [服务端开发那些事儿(七牛CEO许式伟)](http://mp.weixin.qq.com/s?__biz=MjM5NzAwNDI4Mg==&mid=400623317&idx=1&sn=5a9c5b75148dd308ff35eec6ae041cab)：锁的使用，模块化设计，服务器测试(工具)、可维护性。
 * [关于分布式事务、两阶段提交协议、三阶提交协议](http://blog.jobbole.com/95632/)
-* [学习笔记：The Log（我所读过的最好的一篇分布式技术文章）](http://blog.jobbole.com/88301/)
-* [分布式系统阅读清单](http://blog.jobbole.com/84575/)
+* [学习笔记：The Log（我所读过的最好的一篇分布式技术文章）](http://blog.jobbole.com/88301/): **待研究**
+* [分布式系统阅读清单](http://blog.jobbole.com/84575/): **待研究**
 
 ### 1.1. 基础
 
 * [互联网新人如何入门和掌握 Java 开发](https://zhuanlan.zhihu.com/p/21371311?refer=notageek): 没看的看，看过的再看
-* [服务端技术选型](http://xielong.me/2015/04/17/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B/): 小米在用的技术
+* [服务端技术选型](http://xielong.me/2015/04/17/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B/): 小米在用的技术.**待整理**
 * [40个Java集合面试问题和答案](http://www.sanesee.com/article/40-java-collections-interview-questions-and-answers)
-* [如何更好的使用 Java](http://blog.smoker.cc/translation/20160511.html)
+* [如何更好的使用 Java](http://blog.smoker.cc/translation/20160511.html): **待整理**
 * [HashMap深度分析](http://www.jianshu.com/p/8b372f3a195d)
 
 ### 1.2. 架构
@@ -29,7 +29,7 @@
 * [电商前端交易型系统设计原则](http://jinnianshilongnian.iteye.com/blog/2312284):使用状态机处理订单状态，使用日志(redis)+task 进行流量缓冲、等幂（防重）等。
 * [分布式系统设计的求生之路](http://wetest.qq.com/lab/view/105.html): 消息中间件的通信模式（req/rep,pub/sub,push/pull,dealer/router）、自定义消息协议。
 * [设计消息中间件时我关心什么?](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653547492&idx=1&sn=be78ff0389fd5a8d8991abc567a191e2&scene=0#wechat_redirect): 数据一致性（事务+task、两段提交），隔离、治理。
-* [消息队列设计精要](http://tech.meituan.com/mq-design.html): 应用场景：解耦、数据一致性（日志+task）、广播、错峰与流控，功能：...
+* [消息队列设计精要](http://tech.meituan.com/mq-design.html): 应用场景：解耦、数据一致性（日志+task）、广播、错峰与流控，功能：**待整理**
 
 ### 1.3. 网络
 
@@ -38,8 +38,8 @@
 ### 1.4. DB
 
 * [数据库软件架构设计些什么](http://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=400465735&idx=1&sn=8d7067de4cc8f73ea5558f07e0a9340e&scene=0#wechat_redirect): 由单库到集群，简单实现哈希一致的方法。
-* [如果有人问你数据库的原理，叫他看这篇文章](http://blog.jobbole.com/100349/): 
-* [20 个数据库设计最佳实践](http://www.oschina.net/question/28_37512)
+* [如果有人问你数据库的原理，叫他看这篇文章](http://blog.jobbole.com/100349/): **未看完**
+* [20 个数据库设计最佳实践](http://www.oschina.net/question/28_37512): **待研究**
 * 
 
 ### 1.5. 移动开发
@@ -54,9 +54,8 @@
 
 * [移动H5前端性能优化指南](https://isux.tencent.com/h5-performance.html): 加载优化，图片优化，脚本优化，css优化，渲染优化
 * [浏览器缓存知识小结及应用](http://www.cnblogs.com/lyzg/p/5125934.html): 强缓存，协商缓存
-* [动态加载js文件的正确姿势](https://github.com/someus/how-to-load-dynamic-script)
-* [面向设计的半封装web组件开发](http://www.zhangxinxu.com/wordpress/2015/08/semi-package-web-component-development-for-design/): 
-* [做一个高效的前端攻程狮之经验总结](http://www.imooc.com/article/1974)
+* [动态加载js文件的正确姿势](https://github.com/someus/how-to-load-dynamic-script): **待研究**
+* [做一个高效的前端攻程狮之经验总结](http://www.imooc.com/article/1974): 文章最后的东西**待研究**
 
 ### 2.1. React
 
@@ -67,9 +66,10 @@
 
 ## 3. 工程
 
-* [语义化版本](http://semver.org/lang/zh-CN/): 版本号的规范。
+* [语义化版本](http://semver.org/lang/zh-CN/): 版本号的规范：x.y.z-。
 * [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html): 规范 commit message，自动生成 Change log
 * [优秀的Java程序测试是什么样的？](http://www.codeceo.com/article/good-java-test.html): 表达清晰
+* [前端工程相关问题](https://github.com/fouber/blog)： 系列文章**待研究**：开发体系，集成，部署，测试，性能优化等。
 
 
 ## 0. Other
