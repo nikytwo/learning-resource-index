@@ -307,6 +307,9 @@
 ***
 
 # A. 参考
+
+- [free-programming-books(中文)](https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md)
+
 - [极客学院wiki,IT程序语言开发文档](http://wiki.jikexueyuan.com/)
 
 - [gitbook](https://www.gitbook.com/@nikytwo/starred)
