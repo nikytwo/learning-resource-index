@@ -239,6 +239,7 @@
 - [Logstash 最佳实践](https://github.com/chenryn/logstash-best-practice-cn)
 - [ELKstack 中文指南(ELK=Elasticsearch+Logstash+Kibana)](https://www.gitbook.com/book/chenryn/kibana-guide-cn/details)
 - [Chrome 开发工具指南](http://wiki.jikexueyuan.com/project/chrome-devtools/)
+- [编程之法：面试和算法心得](https://github.com/julycoding/The-Art-Of-Programming-By-July)
 
 
 # 14. 大数据
