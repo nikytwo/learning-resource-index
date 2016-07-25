@@ -82,5 +82,4 @@
 * [在高科技行业，只有失败者采用“业界最佳实践”](http://www.ituring.com.cn/tupubarticle/8160): 
 * [程序员，你的安全感呢？](http://www.linkedme.in/2015/10/12/how-developer-feel-safe): 拖延症,制作平衡表(你知道/你能影响/你不知道/你不能影响)，匹配外部期待和个人能力
 * [技术的执念](http://icodeit.org/2016/02/pitfall-of-technology/): 知识框架,过载处理（做减法、深入、优先级）
-* [程序员技术练级攻略](http://coolshell.cn/articles/4990.html)
 * [最容易被忽略的三种学习方式](http://www.gtdlife.com/2016/4376/three-study-way/): 模仿、心态、信任
