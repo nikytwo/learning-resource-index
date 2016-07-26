@@ -1,5 +1,10 @@
-
-# 《深入解析Oracle.DBA入门进阶与诊断案例》-- 第 7 章（重做）
+---
+layout: post
+title: "《深入解析Oracle.DBA入门进阶与诊断案例》-- 第 7 章（重做）"
+description: "《深入解析Oracle.DBA入门进阶与诊断案例》-- 第 7 章（重做）"
+category: diary
+tags: [oracle]
+---
 
 
 ## 重做日志的作用与原理

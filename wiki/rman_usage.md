@@ -1,6 +1,11 @@
+---
+layout: post
+title: "Oracle 备份工具 RMAN 使用教程"
+description: "Oracle 备份工具 RMAN 使用教程"
+category: wiki
+tags: [oracle,rman]
+---
 
-
-# Oracle 备份工具 RMAN 使用教程
 
 ## 相关知识
 
@@ -91,6 +96,10 @@ delete noprompt obsolete;
 
 以上脚本为0级备份脚本，1级备份请修改 rman 脚本中的相关参数(`level=*`)。
 关于备份级别，请参考下文。
+
+表空间、数据文件备份与全库备份的差别：**非全库备份时，备份的保留策略不会应用于归档日志文件备份集**。
+
+因为归档日志文件里包含其他未备份的数据。
 
 ### 备份时间
 
