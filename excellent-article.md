@@ -19,6 +19,7 @@
 * [40个Java集合面试问题和答案](http://www.sanesee.com/article/40-java-collections-interview-questions-and-answers)
 * [如何更好的使用 Java](http://blog.smoker.cc/translation/20160511.html): **待整理**
 * [HashMap深度分析](http://www.jianshu.com/p/8b372f3a195d)
+* [slf4j、jcl、jul、log4j1、log4j2、logback大总结](http://my.oschina.net/pingpangkuangmo/blog/410224)
 
 ### 1.2. 架构
 
