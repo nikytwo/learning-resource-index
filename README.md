@@ -227,6 +227,7 @@
 - [猴子都能懂的GIT](http://backlogtool.com/git-guide/cn/)
 - [GitHub 漫游指南](https://github.com/phodal/github-roam)
 - [GotGitHub](http://www.worldhello.net/gotgithub/index.html) `Done`
+- [GitHub秘籍](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md)
 - [Gradle User Guide 中文版](https://www.gitbook.com/book/dongchuan/gradle-user-guide-/details)
 - [Gradle 实战](https://www.gitbook.com/star/book/lippiouyang/gradle-in-action-cn)
 - [Gradle 2 用户指南](https://www.gitbook.com/book/waylau/gradle-2-user-guide/details)
