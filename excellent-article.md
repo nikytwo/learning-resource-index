@@ -23,6 +23,7 @@
 
 ### 1.2. 架构
 
+* [谈谈互联网后端基础设施](http://www.rowkey.me/blog/2016/08/27/server-basic-tech-stack/)
 * [从技术细节看美团的架构](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=408215395&idx=1&sn=cc49792ef0948a140c37d99306363774&scene=0#wechat_redirect)([视频地址](http://www.infoq.com/cn/presentations/see-meituan-architecture-from-technical-details#rd)): 构架是变化的，公共组件的提炼（以便专注业务），业务构架的优化（标准化，自动化），用户精准运营。
 * [每个架构师都应该研究下康威定律](http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=408286995&idx=1&sn=1634698023c48b754d42af69cee2ab32&scene=0#wechat_redirect): 利益相关者，迭代、演化、反馈，与组织文化的关系。
 * [大型网站架构技术一览](http://www.hollischuang.com/archives/1132)
@@ -84,3 +85,4 @@
 * [程序员，你的安全感呢？](http://www.linkedme.in/2015/10/12/how-developer-feel-safe): 拖延症,制作平衡表(你知道/你能影响/你不知道/你不能影响)，匹配外部期待和个人能力
 * [技术的执念](http://icodeit.org/2016/02/pitfall-of-technology/): 知识框架,过载处理（做减法、深入、优先级）
 * [最容易被忽略的三种学习方式](http://www.gtdlife.com/2016/4376/three-study-way/): 模仿、心态、信任
+* [论一线技术领导者的基本素养](http://mp.weixin.qq.com/s?__biz=MzA4ODgwNjk1MQ==&mid=2653788410&idx=1&sn=2c281e0502719cec78085e1c285f3e72&scene=0#wechat_redirect): 利用有限的了解做出正确的决定；利用有限的工程师资源高质量完成关键项目（调动工程师潜力，帮助工程师成长）。
