@@ -32,6 +32,7 @@
 * [分布式系统设计的求生之路](http://wetest.qq.com/lab/view/105.html): 消息中间件的通信模式（req/rep,pub/sub,push/pull,dealer/router）、自定义消息协议。
 * [设计消息中间件时我关心什么?](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653547492&idx=1&sn=be78ff0389fd5a8d8991abc567a191e2&scene=0#wechat_redirect): 数据一致性（事务+task、两段提交），隔离、治理。
 * [消息队列设计精要](http://tech.meituan.com/mq-design.html): 应用场景：解耦、数据一致性（日志+task）、广播、错峰与流控，功能：**待整理**
+* [推荐几个自己写的Java后端相关的范例项目](http://wosyingjun.iteye.com/blog/2312553): Spring+SpringMVC+Mybatis+页面分离+nginx负载均衡+tomcat集群+基于dubbo+zookeeper
 
 ### 1.3. 网络
 
@@ -86,4 +87,4 @@
 * [技术的执念](http://icodeit.org/2016/02/pitfall-of-technology/): 知识框架,过载处理（做减法、深入、优先级）
 * [最容易被忽略的三种学习方式](http://www.gtdlife.com/2016/4376/three-study-way/): 模仿、心态、信任
 * [论一线技术领导者的基本素养](http://mp.weixin.qq.com/s?__biz=MzA4ODgwNjk1MQ==&mid=2653788410&idx=1&sn=2c281e0502719cec78085e1c285f3e72&scene=0#wechat_redirect): 利用有限的了解做出正确的决定；利用有限的工程师资源高质量完成关键项目（调动工程师潜力，帮助工程师成长）。
-* [一家初创公司的 CTO 应当做什么？](http://www.zcfy.cc/article/what-does-a-startup-cto-actually-do-1146.html)
+* [一家初创公司的 CTO 应当做什么？](http://www.zcfy.cc/article/what-does-a-startup-cto-actually-do-1146.html): 技术选型、全局把控、提供选择、8/2原则（）、培养人才、开发方法论。
