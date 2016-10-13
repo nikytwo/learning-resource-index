@@ -70,6 +70,7 @@
 ## 3. 工程
 
 * [语义化版本](http://semver.org/lang/zh-CN/): 版本号的规范：x.y.z-。
+* [Maven最佳实践：版本管理](http://juvenshun.iteye.com/blog/376422): SNAPSHOT 是什么。
 * [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html): 规范 commit message，自动生成 Change log
 * [优秀的Java程序测试是什么样的？](http://www.codeceo.com/article/good-java-test.html): 表达清晰
 * [前端工程相关问题](https://github.com/fouber/blog)： 系列文章**待研究**：开发体系，集成，部署，测试，性能优化等。
