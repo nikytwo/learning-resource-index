@@ -30,9 +30,8 @@
 - [Java正则表达式教程](http://www.java3z.com/cwbwebhome/article/article8/Regex/Java.Regex.Tutorial.html)
 - [最最常用的 100 个 Java 类](http://www.oschina.net/news/55726/top-100-classes-used-in-java-projects)
 - [Java资源大全中文版](https://github.com/jobbole/awesome-java-cn)([英文](https://github.com/akullpp/awesome-java))
-- [Java NIO 系列教程](http://ifeve.com/java-nio-all/),[备用](http://www.iteye.com/magazines/132-Java-NIO)
+- [Java NIO 系列教程](http://ifeve.com/java-nio-all/)（[备用]）(http://www.iteye.com/magazines/132-Java-NIO)
 - [JVM实用参数系列](http://ifeve.com/useful-jvm-flags/)
-- [Java并发性和多线程](http://ifeve.com/java-concurrency-thread-directory/)
 - []()
 
 
