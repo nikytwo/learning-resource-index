@@ -30,6 +30,11 @@
 - [Java正则表达式教程](http://www.java3z.com/cwbwebhome/article/article8/Regex/Java.Regex.Tutorial.html)
 - [最最常用的 100 个 Java 类](http://www.oschina.net/news/55726/top-100-classes-used-in-java-projects)
 - [Java资源大全中文版](https://github.com/jobbole/awesome-java-cn)([英文](https://github.com/akullpp/awesome-java))
+- [Java NIO 系列教程](http://ifeve.com/java-nio-all/)
+- [JVM实用参数系列](http://ifeve.com/useful-jvm-flags/)
+- [Java并发性和多线程](http://ifeve.com/java-concurrency-thread-directory/)
+- []()
+
 
 ## 2.2. Lib/框架
 
@@ -40,8 +45,9 @@
 - [Jersey 2.x 用户指南](https://github.com/waylau/Jersey-2.x-User-Guide/blob/master/SUMMARY.md)
 - [REST 实战](https://github.com/waylau/rest-in-action)
 - [MyBatis中文文档](http://mybatis.github.io/mybatis-3/zh/index.html)
+- [Netty相关](http://ifeve.com/category/netty/)
 - [Netty 4.x 用户指南](https://www.gitbook.com/book/waylau/netty-4-user-guide/details)
-- [Netty 实战(精髓)](http://waylau.com/essential-netty-in-action/)
+- [Netty 实战(精髓)](https://www.gitbook.com/book/waylau/essential-netty-in-action/details)
 - [Apache MINA 2 用户指南](https://github.com/waylau/apache-mina-2.x-user-guide)
 - [Velocity 索引](http://wiki.hotoo.me/Velocity.html)
 - [PowerMock 使用](http://nikytwo.github.io/lib/2014/06/13/powermock-usage/) `Done`
@@ -311,6 +317,8 @@
 # A. 参考
 
 - [free-programming-books(中文)](https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md)
+
+- [并发编程网 - ifeve.com](http://ifeve.com/)
 
 - [极客学院wiki,IT程序语言开发文档](http://wiki.jikexueyuan.com/)
 
