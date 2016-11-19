@@ -14,6 +14,7 @@
 
 ### 1.1. 基础
 
+* [ kerberos认证原理](http://blog.csdn.net/wulantian/article/details/42418231): 身份认证。**待整理**[敞开的地狱之门：Kerberos协议的滥用](http://www.freebuf.com/articles/system/45631.html)
 * [互联网新人如何入门和掌握 Java 开发](https://zhuanlan.zhihu.com/p/21371311?refer=notageek): 没看的看，看过的再看
 * [服务端技术选型](http://xielong.me/2015/04/17/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B/): 小米在用的技术.**待整理**
 * [40个Java集合面试问题和答案](http://www.sanesee.com/article/40-java-collections-interview-questions-and-answers)
