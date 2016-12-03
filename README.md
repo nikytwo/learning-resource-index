@@ -190,8 +190,9 @@
 
 # 12. NoSQL
 
-- [Redis学习手册](http://www.cnblogs.com/stephen-liu74/archive/2012/04/16/2370212.html)
+- [Redis教程](http://www.redis.net.cn/)
 - [Redis 命令参考](http://www.redisdoc.com/)
+- ~~[Redis学习手册](http://www.cnblogs.com/stephen-liu74/archive/2012/04/16/2370212.html)~~
 - [MongoDB教程](http://www.yiibai.com/mongodb/)
 - [Hadoop教程](http://www.yiibai.com/hadoop/)
 
@@ -208,7 +209,7 @@
 
 ## 13.2 Resource
 
--[前端资源库](http://www.awesomes.cn/)
+- [前端资源库](http://www.awesomes.cn/)
 - [js 库1](http://www.javascripting.com/)
 - [js 库2](http://www.unheap.com/)
 - [css 库](https://stylesheets.co/)
