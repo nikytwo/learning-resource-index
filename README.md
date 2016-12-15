@@ -1,6 +1,7 @@
 # 0. 职业规划
 
 - [职业规划](http://www.w3school.com.cn/careers/career_tips.asp) `Done`
+- [程序员技能图谱](https://github.com/TeamStuQ/skill-map)
 - [程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/content/index.html)
 
 # 1. OS
