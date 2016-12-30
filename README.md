@@ -15,7 +15,7 @@
 - [shipyard中文文档](http://dockerpool.com/static/books/shipyard_doc/index.html)
 - [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 - [shell手册](http://manual.51yip.com/shell/index.html)
-- [Shell 编程范例](https://www.gitbook.com/star/book/tinylab/shellbook)
+- [Shell 编程范例](https://www.gitbook.com/book/tinylab/shellbook)
 - [PowerShell 在线教程](http://www.pstips.net/powershell-online-tutorials)
 - [Ubuntu参考手册](http://wiki.ubuntu.org.cn/UbuntuManual)
 
@@ -100,7 +100,7 @@
 ## 4.3. 其他
 
 - [Python自然语言处理中文版](http://pan.baidu.com/s/1qW4pvnY)
-- [Stackoverflow上关于Python问题的翻译](https://www.gitbook.com/star/book/taizilongxu/stackoverflow-about-python)
+- [Stackoverflow上关于Python问题的翻译](https://www.gitbook.com/book/taizilongxu/stackoverflow-about-python)
 
 
 # 5. dotNet
@@ -139,7 +139,7 @@
 - [Ext4.1.0 Doc中文版](http://extjs-doc-cn.github.io/ext4api/)
 - [requirejs中文](http://www.requirejs.cn/)
 - [Grunt中文文档](http://www.gruntjs.net/)
-- [nodejs中文文档](https://www.gitbook.com/star/book/0532/nodejs)
+- [nodejs中文文档](https://www.gitbook.com/book/0532/nodejs)
 - [Discover Meteor 中文版](http://zh.discovermeteor.com/)
 - [Redux 中文文档](http://camsong.github.io/redux-in-chinese/)
 - [React&React Native生态-探索学习](https://github.com/icepy/Front-End-Develop-Guide/blob/master/React.md)
@@ -154,7 +154,7 @@
 - [单页应用开发权威指南](http://island205.github.io/Single-Page-App-Break/index.html)
 - [前端开发者手册](https://dwqs.gitbooks.io/frontenddevhandbook/content/index.html)
 - [前端开发知识结构](http://html5ify.com/fks)
-- [前端开发笔记本](https://www.gitbook.com/star/book/li-xinyang/frontend-notebook)
+- [前端开发笔记本](https://www.gitbook.com/book/li-xinyang/frontend-notebook)
 - [Web 技术文档(mozilla)](https://developer.mozilla.org/zh-CN/docs/Web)
 - [Web相关优质项目文档](http://www.bootcss.com/)
 - [HTTP/2 讲解](http://http2-explained.haxx.se/content/zh/)
@@ -226,7 +226,7 @@
 - [Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html)
 - [Nginx教程从入门到精通](http://www.ttlsa.com/nginx/nginx-stu-pdf/)(PDF版本，运维生存时间出品)
 - [Nginx 的官方中文文档](http://wiki.nginx.org/NginxChs)
-- [OpenResty最佳实践](https://www.gitbook.com/star/book/moonbingbing/openresty-best-practices)
+- [OpenResty最佳实践](https://www.gitbook.com/book/moonbingbing/openresty-best-practices)
 - [Jetty : 权威指南](http://ykgarfield.github.io/jetty-9.2.3.v20140905-zh/index.html)
 - [Tomcat 8 权威指南](http://wiki.jikexueyuan.com/project/tomcat/)
 - [Apache 中文手册](http://manual.51yip.com/ApacheMenu/index.html)
@@ -236,7 +236,7 @@
 - [GotGitHub](http://www.worldhello.net/gotgithub/index.html) `Done`
 - [GitHub秘籍](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md)
 - [Gradle User Guide 中文版](https://www.gitbook.com/book/dongchuan/gradle-user-guide-/details)
-- [Gradle 实战](https://www.gitbook.com/star/book/lippiouyang/gradle-in-action-cn)
+- [Gradle 实战](https://www.gitbook.com/book/lippiouyang/gradle-in-action-cn)
 - [Gradle 2 用户指南](https://www.gitbook.com/book/waylau/gradle-2-user-guide/details)
 - [W3School Memcached 教程](http://www.kancloud.cn/wizardforcel/w3school-mc)
 - [开发 WebLogic Server 的 Web 应用程序、Servlet 和 JSP](http://edocs.weblogicfans.net/wls/docs92/webapp/index.html)
