@@ -11,6 +11,7 @@
 * [关于分布式事务、两阶段提交协议、三阶提交协议](http://blog.jobbole.com/95632/)
 * [学习笔记：The Log（我所读过的最好的一篇分布式技术文章）](http://blog.jobbole.com/88301/): **待研究**
 * [分布式系统阅读清单](http://blog.jobbole.com/84575/): **待研究**
+* [一个复杂系统的拆分改造实践](http://blog.jobbole.com/109409/): 各子系统的设计与调用（怀疑第三方，防备使用方，做好自己），SOP化，每一步可测试可回滚
 
 ### 1.1. 基础
 
@@ -22,6 +23,7 @@
 * [如何更好的使用 Java](http://blog.smoker.cc/translation/20160511.html): **待整理**
 * [HashMap深度分析](http://www.jianshu.com/p/8b372f3a195d)
 * [slf4j、jcl、jul、log4j1、log4j2、logback大总结](http://my.oschina.net/pingpangkuangmo/blog/410224)
+* [Spring 核心框架体系结构](http://www.importnew.com/22859.html)
 
 ### 1.2. 架构
 
