@@ -14,6 +14,12 @@
 
 * [学习了哪些知识，计算机视觉才算入门](https://www.zhihu.com/question/26836846)
 * [斯坦福大学公开课：机器人学](http://open.163.com/special/opencourse/robotics.html)
+* [Digital Image Processing]()
+* [opencv 中文wiki](http://wiki.opencv.org.cn/)
+* [Computer Vision : Algorithms and Application](http://szeliski.org/Book/)
+* [Computer Vision: Models, Learning, and Inference](http://www.computervisionmodels.com/)
+* [An Invitation to 3-D Vision](http://vision.ucla.edu/MASKS/)
+* [Multiple View Geometry in Computer Vision Second Edition](http://www.robots.ox.ac.uk/~vgg/hzbook/)
 
 ## 子问题
 
@@ -69,7 +75,6 @@ ROS：Robot Operating System, 机器人操作系统
 
 ## 资源
 
-* [opencv 中文wiki](http://wiki.opencv.org.cn/)
 * [易科机器人实验室](http://blog.exbot.net/): 开放、开源、协作组织，致力于机器人技术的创新与分享。
 
 ## 资讯
