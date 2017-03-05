@@ -1,93 +1,97 @@
 
-# ¼ÆËã»úÊÓ¾õ
+# è®¡ç®—æœºè§†è§‰ & æœºå™¨äºº
 
-## Ğè½â¾öµÄÎÊÌâ
+## éœ€è§£å†³çš„é—®é¢˜
 
-»úÆ÷ÊÓ¾õ£¨2D/3D£©¡¢¸ß¼¶±à³ÌÄ£ĞÍ¡¢¿ìËÙ»·¾³¸ĞÖª¡¢ÖÇÄÜ¾ö²ß¡¢×ÔÖ÷Â·¾¶¹æ»®
-ÖÇÄÜ¿ØÖÆ¡¢¶¯Á¦µ¥Ôª¡¢Áé»î±¾Ìå¡¢»¥ÁªÔÆ¶Ë
-ÇáÁ¿¼¶¡¢µÍ³É±¾
+æœºå™¨è§†è§‰ï¼ˆ2D/3Dï¼‰ã€é«˜çº§ç¼–ç¨‹æ¨¡å‹ã€å¿«é€Ÿç¯å¢ƒæ„ŸçŸ¥ã€æ™ºèƒ½å†³ç­–ã€è‡ªä¸»è·¯å¾„è§„åˆ’
+æ™ºèƒ½æ§åˆ¶ã€åŠ¨åŠ›å•å…ƒã€çµæ´»æœ¬ä½“ã€äº’è”äº‘ç«¯
+è½»é‡çº§ã€ä½æˆæœ¬
 
-ÈáË³£¨×è¿¹£©¿ØÖÆ£º»º³åÒıÈë£¬Ïû³ıÎó²î£»»º³åÏµÊıÑ§Ï°£»
+æŸ”é¡ºï¼ˆé˜»æŠ—ï¼‰æ§åˆ¶ï¼šç¼“å†²å¼•å…¥ï¼Œæ¶ˆé™¤è¯¯å·®ï¼›ç¼“å†²ç³»æ•°å­¦ä¹ ï¼›
 
 
-## ÈëÃÅ
+## å…¥é—¨
 
-* [Ñ§Ï°ÁËÄÄĞ©ÖªÊ¶£¬¼ÆËã»úÊÓ¾õ²ÅËãÈëÃÅ](https://www.zhihu.com/question/26836846)
-* [Ë¹Ì¹¸£´óÑ§¹«¿ª¿Î£º»úÆ÷ÈËÑ§](http://open.163.com/special/opencourse/robotics.html)
+* [å­¦ä¹ äº†å“ªäº›çŸ¥è¯†ï¼Œè®¡ç®—æœºè§†è§‰æ‰ç®—å…¥é—¨](https://www.zhihu.com/question/26836846)
+* [æœºå™¨äººå·¥ç¨‹å¸ˆä¹‹è·¯â€”â€”ä»å¤§ä¸€åˆ°ç ”ç©¶ç”Ÿ](http://blog.exbot.net/archives/2790)
+* [æœºå™¨äººæˆé•¿ä¹‹è·¯â€”â€”å·¥å…·ç¯‡](https://zhuanlan.zhihu.com/p/22822237)
+* [æ–¯å¦ç¦å¤§å­¦å…¬å¼€è¯¾ï¼šæœºå™¨äººå­¦](http://open.163.com/special/opencourse/robotics.html)
 * [Digital Image Processing]()
-* [opencv ÖĞÎÄwiki](http://wiki.opencv.org.cn/)
+* [opencv ä¸­æ–‡wiki](http://wiki.opencv.org.cn/)
 * [Computer Vision : Algorithms and Application](http://szeliski.org/Book/)
 * [Computer Vision: Models, Learning, and Inference](http://www.computervisionmodels.com/)
 * [An Invitation to 3-D Vision](http://vision.ucla.edu/MASKS/)
 * [Multiple View Geometry in Computer Vision Second Edition](http://www.robots.ox.ac.uk/~vgg/hzbook/)
 
-## ×ÓÎÊÌâ
+## å­é—®é¢˜
 
 ### SLAM
 
-ÊÓ¾õÏà¹Ø£ºSLAM£¨Simultaneous localization and mapping£©£¬·½°¸£ºÍ¼ÏñÇ°¶Ë£¬ÓÅ»¯ºó¶Ë£¬±Õ»·¼ì²â¡£
+è§†è§‰ç›¸å…³ï¼šSLAMï¼ˆSimultaneous localization and mappingï¼‰ï¼Œæ–¹æ¡ˆï¼šå›¾åƒå‰ç«¯ï¼Œä¼˜åŒ–åç«¯ï¼Œé—­ç¯æ£€æµ‹ã€‚
 
-* [SLAMCN](http://www.slamcn.org/index.php): ¹úÈË²©¿ÍÓëÊÓÆµ
-* [Öªºõ£ºÑ§Ï°SLAMĞèÒªÄÄĞ©Ô¤±¸ÖªÊ¶](https://www.zhihu.com/question/35186064/answer/69699924)
+* [SLAMCN](http://www.slamcn.org/index.php): å›½äººåšå®¢ä¸è§†é¢‘
+* [çŸ¥ä¹ï¼šå­¦ä¹ SLAMéœ€è¦å“ªäº›é¢„å¤‡çŸ¥è¯†](https://www.zhihu.com/question/35186064/answer/69699924)
 * [OpenSLAM](https://www.openslam.org/)
-* [ÊÓ¾õSLAMÂşÌ¸](http://www.cnblogs.com/gaoxiang12/p/3695962.html)
-* [PCL£¨µãÔÆ£©](http://pointclouds.org/)£º is a standalone, large scale, open project for 2D/3D image and point cloud processing.
+* [è§†è§‰SLAMæ¼«è°ˆ](http://www.cnblogs.com/gaoxiang12/p/3695962.html)
+* [PCLï¼ˆç‚¹äº‘ï¼‰](http://pointclouds.org/)ï¼š is a standalone, large scale, open project for 2D/3D image and point cloud processing.
 
-SLAMËã·¨¿ª·¢¹¤³ÌÊ¦
->Ö°Ôğ£º
->ÑĞ¾¿»ùÓÚË«Ä¿Á¢ÌåÊÓ¾õÎªÖ÷ÆäËû´«¸ĞÆ÷Îª¸¨ÖúµÄSLAMËã·¨£¬°üº¬¸ú×Ù¡¢½¨Í¼¡¢±Õ»·µÈÏà¹ØËã·¨;
->ÑĞ¾¿²¢¿ª·¢»úÆ÷ÈËµÄ×ÔÖ÷¶¨Î»Ëã·¨;
->Ëã·¨µÄ²âÊÔ¡¢ÒÆÖ²ºÍ²úÆ·»¯;
->»ù±¾ÒªÇó£º
->ÕÆÎÕÍ¼Ïñ´¦Àí¡¢Ä£Ê½Ê¶±ğ¼°»úÆ÷ÊÓ¾õ»ù´¡ÖªÊ¶£¬¾ß±¸Ëã·¨ÑĞ·¢ÄÜÁ¦;
->ÓĞ»úÆ÷ÊÓ¾õËã·¨Ïà¹ØÑĞ·¢¾­Ñé£¬¶ÔVSLAMËã·¨ÓĞºÜÉîµÄÑĞ¾¿;
->¾«Í¨C/C++±à³ÌÓïÑÔ£¬ÓĞ½ÏÇ¿µÄ±àÂëÄÜÁ¦£¬ÊìÏ¤linux¿ª·¢»·¾³£¬ÊìÏ¤Ç¶ÈëÊ½»·¾³ÕßÓÅÏÈ;
->¾«Í¨openCV£¬ÓĞ¹ıSLAMÏà¹ØÏîÄ¿¾­ÀúÓÅÏÈ
+SLAMç®—æ³•å¼€å‘å·¥ç¨‹å¸ˆ
+>èŒè´£ï¼š
+>ç ”ç©¶åŸºäºåŒç›®ç«‹ä½“è§†è§‰ä¸ºä¸»å…¶ä»–ä¼ æ„Ÿå™¨ä¸ºè¾…åŠ©çš„SLAMç®—æ³•ï¼ŒåŒ…å«è·Ÿè¸ªã€å»ºå›¾ã€é—­ç¯ç­‰ç›¸å…³ç®—æ³•;
+>ç ”ç©¶å¹¶å¼€å‘æœºå™¨äººçš„è‡ªä¸»å®šä½ç®—æ³•;
+>ç®—æ³•çš„æµ‹è¯•ã€ç§»æ¤å’Œäº§å“åŒ–;
+>åŸºæœ¬è¦æ±‚ï¼š
+>æŒæ¡å›¾åƒå¤„ç†ã€æ¨¡å¼è¯†åˆ«åŠæœºå™¨è§†è§‰åŸºç¡€çŸ¥è¯†ï¼Œå…·å¤‡ç®—æ³•ç ”å‘èƒ½åŠ›;
+>æœ‰æœºå™¨è§†è§‰ç®—æ³•ç›¸å…³ç ”å‘ç»éªŒï¼Œå¯¹VSLAMç®—æ³•æœ‰å¾ˆæ·±çš„ç ”ç©¶;
+>ç²¾é€šC/C++ç¼–ç¨‹è¯­è¨€ï¼Œæœ‰è¾ƒå¼ºçš„ç¼–ç èƒ½åŠ›ï¼Œç†Ÿæ‚‰linuxå¼€å‘ç¯å¢ƒï¼Œç†Ÿæ‚‰åµŒå…¥å¼ç¯å¢ƒè€…ä¼˜å…ˆ;
+>ç²¾é€šopenCVï¼Œæœ‰è¿‡SLAMç›¸å…³é¡¹ç›®ç»å†ä¼˜å…ˆ
 
 
 ### ROS
 
-ROS£ºRobot Operating System, »úÆ÷ÈË²Ù×÷ÏµÍ³
+ROSï¼šRobot Operating System, æœºå™¨äººæ“ä½œç³»ç»Ÿ
 
 * [wiki](http://wiki.ros.org/cn)
-* [»úÆ÷ÈË²Ù×÷ÏµÍ³£¨ROS£©½Ì³Ì](http://www.arduino.cn/thread-11255-1-1.html)
-* [ROS¿ìËÙÉÏÊÖ½Ì³Ì](http://my.phirobot.com/drafts/ros_quick_start1_start_with_ubuntu_for_ros.html)
-* [¸úÎÒÑ§ROS](http://www.robotos.net/portal.php)
+* [ROSæ¢ç´¢æ€»ç»“](http://www.guyuehome.com/column/ros-explore)
+* [ROSæœºå™¨äººä¿±ä¹éƒ¨](http://www.rosclub.cn/)
+* [æœºå™¨äººæ“ä½œç³»ç»Ÿï¼ˆROSï¼‰æ•™ç¨‹](http://www.arduino.cn/thread-11255-1-1.html)
+* [ROSå¿«é€Ÿä¸Šæ‰‹æ•™ç¨‹](http://my.phirobot.com/drafts/ros_quick_start1_start_with_ubuntu_for_ros.html)
+* [è·Ÿæˆ‘å­¦ROS](http://www.robotos.net/portal.php)
 
-### ²Ù¿Ø
+### æ“æ§
 
-* ×¥È¡
-* ·ÅÖÃ/×°Åä
-
-
-### »úÆ÷Ñ§Ï°
+* æŠ“å–
+* æ”¾ç½®/è£…é…
 
 
-## Ïà¹Ø¹«Ë¾ºÍ²úÆ·
+### æœºå™¨å­¦ä¹ 
 
-* [ÈË¼Ó-ÊÓ¾õÄ£¿é](http://www.humanplus.cc/depth-vpu.html)£º
-* [UArm](http://www.evol.net)£º×ÀÃæ»úĞµ±Û¡£[UArm ³£¼ûÎÊÌâ](http://www.ufactory.cc/#!/cn/support/question)
-* [Dobot](http://cn.dobot.cc/download-center/)£º×ÀÃæ»úĞµ±Û
-* [Makeblock](http://www.makeblock.com/)£º»ıÄ¾»úÆ÷ÈË
-* [DFRobot](http://www.dfrobot.com.cn/): ¿ªÔ´Ó²¼şºÍ»úÆ÷ÈË¹©Ó¦ÉÌ£¬ÓµÓĞ¹úÄÚ×î´óµÄÏßÉÏ´´¿ÍÉçÇø
 
-[ÆäËû](http://www.itjuzi.com/company?scope=103&sub_scope=108)£º»ñÍ¶»òÃ»ÓĞµÄ
+## ç›¸å…³å…¬å¸å’Œäº§å“
 
-## ×ÊÔ´
+* [äººåŠ -è§†è§‰æ¨¡å—](http://www.humanplus.cc/depth-vpu.html)ï¼š
+* [UArm](http://www.evol.net)ï¼šæ¡Œé¢æœºæ¢°è‡‚ã€‚[UArm å¸¸è§é—®é¢˜](http://www.ufactory.cc/#!/cn/support/question)
+* [Dobot](http://cn.dobot.cc/download-center/)ï¼šæ¡Œé¢æœºæ¢°è‡‚
+* [Makeblock](http://www.makeblock.com/)ï¼šç§¯æœ¨æœºå™¨äºº
+* [DFRobot](http://www.dfrobot.com.cn/): å¼€æºç¡¬ä»¶å’Œæœºå™¨äººä¾›åº”å•†ï¼Œæ‹¥æœ‰å›½å†…æœ€å¤§çš„çº¿ä¸Šåˆ›å®¢ç¤¾åŒº
 
-* [Ò×¿Æ»úÆ÷ÈËÊµÑéÊÒ](http://blog.exbot.net/): ¿ª·Å¡¢¿ªÔ´¡¢Ğ­×÷×éÖ¯£¬ÖÂÁ¦ÓÚ»úÆ÷ÈË¼¼ÊõµÄ´´ĞÂÓë·ÖÏí¡£
+[å…¶ä»–](http://www.itjuzi.com/company?scope=103&sub_scope=108)ï¼šè·æŠ•æˆ–æ²¡æœ‰çš„
 
-## ×ÊÑ¶
+## èµ„æº
 
-[ÉîÛÚÍå](https://www.shenzhenware.com): ×¨×¢Ó²¼ş´´ĞÂµÄÇ°ÑØ¿Æ¼¼Ã½ÌåºÍ²úÒµ·şÎñÆ½Ì¨
+* [æ˜“ç§‘æœºå™¨äººå®éªŒå®¤](http://blog.exbot.net/): å¼€æ”¾ã€å¼€æºã€åä½œç»„ç»‡ï¼Œè‡´åŠ›äºæœºå™¨äººæŠ€æœ¯çš„åˆ›æ–°ä¸åˆ†äº«ã€‚
 
-## ÖÚ³ï
+## èµ„è®¯
+
+[æ·±åœ³æ¹¾](https://www.shenzhenware.com): ä¸“æ³¨ç¡¬ä»¶åˆ›æ–°çš„å‰æ²¿ç§‘æŠ€åª’ä½“å’Œäº§ä¸šæœåŠ¡å¹³å°
+
+## ä¼—ç­¹
 
 [indiegogo](https://www.indiegogo.com/)
 
 
 ## Other
 
-[´´ĞÂ¹¤³§](http://www.chuangxin.com/)
+[åˆ›æ–°å·¥å‚](http://www.chuangxin.com/)
 
 
