@@ -13,7 +13,7 @@
 ## 入门
 
 * [学习了哪些知识，计算机视觉才算入门](https://www.zhihu.com/question/26836846)
-* [机器人工程师之路——从大一到研究生](http://blog.exbot.net/archives/2790)
+* [机器人工程师之路——从大一到研究生](http://blog.exbot.net/archives/2790) | [机器人工程师学习计划](https://zhuanlan.zhihu.com/p/22266788)
 * [机器人成长之路——工具篇](https://zhuanlan.zhihu.com/p/22822237)
 * [斯坦福大学公开课：机器人学](http://open.163.com/special/opencourse/robotics.html)
 * [Digital Image Processing]()
