@@ -80,6 +80,7 @@ ROS：Robot Operating System, 机器人操作系统
 ## 资源
 
 * [易科机器人实验室](http://blog.exbot.net/): 开放、开源、协作组织，致力于机器人技术的创新与分享。
+* [DFRobot 产品资料库](http://wiki.dfrobot.com.cn/)
 
 ## 资讯
 
