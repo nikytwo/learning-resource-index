@@ -84,7 +84,8 @@ ROS：Robot Operating System, 机器人操作系统
 
 ## 资讯
 
-[深圳湾](https://www.shenzhenware.com): 专注硬件创新的前沿科技媒体和产业服务平台
+* [深圳湾](https://www.shenzhenware.com): 专注硬件创新的前沿科技媒体和产业服务平台
+* [机器之心](http://www.jiqizhixin.com/)
 
 ## 众筹
 
