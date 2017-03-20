@@ -225,7 +225,8 @@
 - [深入理解Nginx：模块开发与架构解析(1-3章)](http://book.51cto.com/art/201303/386555.htm)
 - [Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html)
 - [Nginx教程从入门到精通](http://www.ttlsa.com/nginx/nginx-stu-pdf/)(PDF版本，运维生存时间出品)
-- [Nginx 的官方中文文档](http://wiki.nginx.org/NginxChs)
+~~- [Nginx 的官方中文文档](http://wiki.nginx.org/NginxChs)~~
+- [Nginx中文参考文档](http://tool.oschina.net/apidocs/apidoc?api=nginx-zh)
 - [OpenResty最佳实践](https://www.gitbook.com/book/moonbingbing/openresty-best-practices)
 - [Jetty : 权威指南](http://ykgarfield.github.io/jetty-9.2.3.v20140905-zh/index.html)
 - [Tomcat 8 权威指南](http://wiki.jikexueyuan.com/project/tomcat/)
