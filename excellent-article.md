@@ -37,6 +37,7 @@
 * [设计消息中间件时我关心什么?](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653547492&idx=1&sn=be78ff0389fd5a8d8991abc567a191e2&scene=0#wechat_redirect): 数据一致性（事务+task、两段提交），隔离、治理。
 * [消息队列设计精要](http://tech.meituan.com/mq-design.html): 应用场景：解耦、数据一致性（日志+task）、广播、错峰与流控，功能：**待整理**
 * [推荐几个自己写的Java后端相关的范例项目](http://wosyingjun.iteye.com/blog/2312553): Spring+SpringMVC+Mybatis+页面分离+nginx负载均衡+tomcat集群+基于dubbo+zookeeper
+* [跟着 Github 学习 Restful HTTP API 设计](http://cizixs.com/2016/12/12/restful-api-design-guide)
 
 ### 1.3. 网络
 
