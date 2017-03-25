@@ -8,12 +8,11 @@
 
 - [鸟哥的Linux私房菜](http://vbird.dic.ksu.edu.tw/)
 - [Linux工具快速教程][linux_tool]
-- [Linux 命令搜索](http://linux.51yip.com/)
 - [GRUB2配置文件"grub.cfg"详解](http://works.jinbuguo.com/linux/grub.cfg.html)
 - [Docker中文指南](http://www.widuu.com/chinese_docker/index.html) `Done`
 - [Docker —— 从入门到实践](https://www.gitbook.com/book/yeasy/docker_practice/details) `Done`
-- [shipyard中文文档](http://dockerpool.com/static/books/shipyard_doc/index.html)
 - [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
+- [快乐的 Linux 命令行](http://billie66.github.io/TLCL/index.html)
 - [shell手册](http://manual.51yip.com/shell/index.html)
 - [Shell 编程范例](https://www.gitbook.com/book/tinylab/shellbook)
 - [PowerShell 在线教程](http://www.pstips.net/powershell-online-tutorials)
