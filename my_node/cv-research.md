@@ -69,6 +69,7 @@ ROS：Robot Operating System, 机器人操作系统
 
 ## 相关公司和产品
 
+* [图普科技](https://www.tuputech.com/):图像识别相关
 * [人加-视觉模块](http://www.humanplus.cc/depth-vpu.html)：
 * [UArm](http://www.evol.net)：桌面机械臂。[UArm 常见问题](http://www.ufactory.cc/#!/cn/support/question)
 * [Dobot](http://cn.dobot.cc/download-center/)：桌面机械臂
