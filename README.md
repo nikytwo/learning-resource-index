@@ -127,6 +127,7 @@
 - [ECMAScript 6入门](http://es6.ruanyifeng.com/)
 - [深入理解JavaScript系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
 - [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
+- [前端精读周刊](https://github.com/dt-fe/weekly)
 - [命名函数表达式探秘](http://justjavac.com/named-function-expressions-demystified.html)
 - [学用 JavaScript 设计模式](http://www.oschina.net/translate/learning-javascript-design-patterns)
 - [jquery手册](http://manual.51yip.com/jquery/)
