@@ -75,7 +75,7 @@
 
 ## 3. 工程
 
-* [12要素](https://12factor.net/zh_cn/): 网络应用程序（或SaaS）开发方法论
+* [12要素](https://12factor.net/zh_cn/): 网络应用程序/微服务（或SaaS）开发方法论。（[12-Factor(英文)](https://12factor.net/)）
 * [语义化版本](http://semver.org/lang/zh-CN/): 版本号的规范：x.y.z-。
 * [Maven最佳实践：版本管理](http://juvenshun.iteye.com/blog/376422): SNAPSHOT 是什么。
 * [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html): 规范 commit message，自动生成 Change log
