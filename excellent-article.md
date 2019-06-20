@@ -24,6 +24,8 @@
 * [HashMap深度分析](http://www.jianshu.com/p/8b372f3a195d)
 * [slf4j、jcl、jul、log4j1、log4j2、logback大总结](http://my.oschina.net/pingpangkuangmo/blog/410224)
 * [Spring 核心框架体系结构](http://www.importnew.com/22859.html)
+* [给你一份Spring Boot知识清单](https://www.jianshu.com/p/83693d3d0a65)
+* [设计模式简介](https://www.runoob.com/design-pattern/design-pattern-tutorial.html): 原则+模式
 
 ### 1.2. 架构
 
