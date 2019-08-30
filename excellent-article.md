@@ -63,7 +63,7 @@
 
 ### 2.0. Other
 
-* [移动H5前端性能优化指南](https://isux.tencent.com/h5-performance.html): 加载优化，图片优化，脚本优化，css优化，渲染优化
+* [移动H5前端性能优化指南](https://cloud.tencent.com/developer/article/1154376): 加载优化，图片优化，脚本优化，css优化，渲染优化
 * [浏览器缓存知识小结及应用](http://www.cnblogs.com/lyzg/p/5125934.html): 强缓存，协商缓存
 * [动态加载js文件的正确姿势](https://github.com/someus/how-to-load-dynamic-script): **待研究**
 * [做一个高效的前端攻程狮之经验总结](http://www.imooc.com/article/1974): 文章最后的东西**待研究**
@@ -85,9 +85,10 @@
 * [前端工程相关问题](https://github.com/fouber/blog)： 系列文章**待研究**：开发体系，集成，部署，测试，性能优化等。
 
 
-## 4. AI
+## 4. AI/优化/算法/
 
 * [神经网络浅讲：从神经元到深度学习](http://blog.jobbole.com/109748/)
+* [How barcode-localization works in QuaggaJS(条形码定位识别)](https://www.oberhofer.co/how-barcode-localization-works-in-quaggajs/)
 
 
 ## 0. Other

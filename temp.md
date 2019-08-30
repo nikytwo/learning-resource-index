@@ -1,6 +1,9 @@
 
 # 待整理的
 
+- [思维混乱，是因为大脑没有结构](https://www.toutiao.com/i6619057728725729800/)
+
+- [技术人具备“结构化思维”意味着什么？](https://mp.weixin.qq.com/s/Veh8labc35JQTNyavTfBpQ)
 
 - [Mars -- 微信基础组件相关文章](https://github.com/Tencent/mars/wiki)
 
