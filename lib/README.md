@@ -54,6 +54,10 @@
 * [JCommander](http://www.oschina.net/p/jcommander): 命令行参数解析。[示例](../../../snippets/blob/master/cxf-web-service/src/main/java/com/bsy/webservice/App.java#L36)
 
 
+## 3rd
+
+* [codeyyy.com/java](https://www.codeyyy.com/java/index.html): 别人整理的库
+
 ***
 
 ## 待考察
