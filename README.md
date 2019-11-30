@@ -251,7 +251,16 @@
 - [编程之法：面试和算法心得](https://github.com/julycoding/The-Art-Of-Programming-By-July)
 
 
-# 14. 大数据
+# 14. 分布式/集群
+
+- [OpenTracing:开放式分布式追踪规范](https://www.jianshu.com/p/d2b11c079af0)
+- [SOFATracer官方文档](https://www.sofastack.tech/projects/sofa-tracer/overview/)
+
+
+# 15. ML
+
+
+# 16. 大数据
 
 - [大数据/数据挖掘/推荐系统/机器学习相关资源](https://github.com/Flowerowl/Big-Data-Resources)
 - [大型集群上的快速和通用数据处理架构](https://code.csdn.net/CODE_Translation/spark_matei_phd)
@@ -261,7 +270,7 @@
 - [TensorFlow 官方文档中文版](http://wiki.jikexueyuan.com/project/tensorflow-zh/)
 
 
-# 15. Android
+# 17. Android
 
 - [国内Android开发相关资源](http://www.androiddevtools.cn/)
 - [Android UI 资源大全(en)](https://github.com/wasabeef/awesome-android-ui)
@@ -281,11 +290,11 @@
 - [Android官方培训课程中文版](http://wiki.jikexueyuan.com/project/android-training-geek/)
 
 
-# 16. 运维
+# 18. 运维
 
 - [开源监控系统中 Zabbix 和 Nagios 哪个更好？](http://www.zhihu.com/question/19973178)
 
-# 17. 硬件相关
+# 19. 硬件相关
 
 - [一步步搭建物联网系统](https://github.com/gmszone/designiot)
 - [OpenWrt智能、自动、透明'翻'墙'路由器教程](https://www.gitbook.com/book/softwaredownload/openwrt-fanqiang/details)
@@ -293,7 +302,7 @@
 - [MQTT协议中文版](https://mcxiaoke.gitbooks.io/mqtt-cn/content/)
 
 
-# 17. Other
+# 20. Other
 
 - [各种安全相关思维导图整理收集](https://github.com/phith0n/Mind-Map)
 - [语义化版本(Semantic Versioning)规范](http://semver.org/lang/zh-CN/)
@@ -317,6 +326,8 @@
 ***
 
 # A. 参考
+
+- [书栈网（开发手册/技术文档）](https://www.bookstack.cn/)
 
 - [free-programming-books(中文)](https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md)
 
