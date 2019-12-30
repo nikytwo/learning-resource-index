@@ -77,6 +77,9 @@
 
 ## 4.1. 基础
 
+- [PEP是什么？](https://www.cnblogs.com/abella/p/10056875.html)
+- [值得阅读的PEP](https://www.zhihu.com/question/23484654)
+- [以正确的方式开源 Python 项目](https://www.oschina.net/translate/open-sourcing-a-python-project-the-right-way?lang=chs&p=1)
 - [Python资源大全(en)](https://github.com/vinta/awesome-python)
 - [Python 绝对简明手册](http://wiki.woodpecker.org.cn/moin/PyAbsolutelyZipManual)
 - [深入 Python 2](http://woodpecker.org.cn/diveintopython/) `Done`
@@ -95,6 +98,7 @@
 - [Scrapy 文档][1] `Done`
 - [The Django Book 2.0 中文版](http://djangobook.py3k.cn/2.0/) `Done`
 - [Python Tornado 介绍](http://dockerpool.com/static/books/introduction_to_tornado_cn/index.html)
+- [requests](https://requests.readthedocs.io/)
 
 ## 4.3. 其他
 
