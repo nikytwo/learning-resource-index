@@ -47,22 +47,20 @@
 - [Netty相关](http://ifeve.com/category/netty/)
 - [Netty 4.x 用户指南](https://www.gitbook.com/book/waylau/netty-4-user-guide/details)
 - [Netty 实战(精髓)](https://www.gitbook.com/book/waylau/essential-netty-in-action/details)
-- [Apache MINA 2 用户指南](https://github.com/waylau/apache-mina-2.x-user-guide)
-- [Velocity 索引](http://wiki.hotoo.me/Velocity.html)
 - [PowerMock 使用](http://nikytwo.github.io/lib/2014/06/13/powermock-usage/) `Done`
-- [Java日期计算之Joda-Time](http://rensanning.iteye.com/blog/1546652)
 - [网络爬虫框架 WebMagic](http://webmagic.io/docs/zh/) `Done`
 - [Unirest 官网](http://unirest.io/java.html)
+- [Feign](https://github.com/OpenFeign/feign)
 - [HttpComponents 官网](http://hc.apache.org/index.html)
 - [Jsoup学习笔记](https://github.com/code4craft/jsoup-learning)
 - [Jsoup Cookbook(中文版)](http://www.open-open.com/jsoup/)
 - [Reactor 指南中文版](http://projectreactor.mydoc.io/)
 - [RxJava Essentials 中文翻译](https://www.gitbook.com/book/yuxingxin/rxjava-essentials-cn/details)
 - [JSSE 参考指南](https://github.com/waylau/jsse-reference-guide)
+- [Dubbo 官方文档](http://dubbo.io)
 
 ### 2.2.1. Spring
 
-- [Spring4参考手册中文版(未完成)](https://github.com/b2gats/stone-docs)
 - [Spring Security](http://resource.ajava.org/spring/spring%203.0-doc/springsecurity.html)
 - [Spring Boot参考指南](https://www.gitbook.com/book/qbgbook/spring-boot-reference-guide-zh/details)
 - [Spring Batch参考文档中文版](https://www.gitbook.com/book/kimmking/springbatchreference/details)
@@ -70,7 +68,7 @@
 
 # 3. Groovy
 
-- [Groovy 系列][groovy_learning] `Done`
+- [Groovy 系列](http://blog.csdn.net/hivon/article/details/4256296) `Done`
 
 
 # 4. Python    
@@ -97,7 +95,6 @@
 - [Beautiful Soup 4 官方中文文档](http://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html)
 - [Scrapy 文档][1] `Done`
 - [The Django Book 2.0 中文版](http://djangobook.py3k.cn/2.0/) `Done`
-- [Python Tornado 介绍](http://dockerpool.com/static/books/introduction_to_tornado_cn/index.html)
 - [requests](https://requests.readthedocs.io/)
 
 ## 4.3. 其他
@@ -111,7 +108,6 @@
 - [.NET 技术栈](https://github.com/unruledboy/DotNetStack)
 - [实体框架 (EF) 入门](https://msdn.microsoft.com/zh-cn/data/ee712907)
 - [moq](https://github.com/Moq/moq4)
-- [MVVMLight](http://www.galasoft.ch/mvvm)
 - [Razor](http://www.asp.net/web-pages)
 - [Roslyn](https://github.com/dotnet/roslyn)
 - [Unity](http://unity.codeplex.com/)
@@ -135,18 +131,9 @@
 - [命名函数表达式探秘](http://justjavac.com/named-function-expressions-demystified.html)
 - [学用 JavaScript 设计模式](http://www.oschina.net/translate/learning-javascript-design-patterns)
 - [jquery手册](http://manual.51yip.com/jquery/)
-- [CoffeeScript中文手册](http://island205.com/tlboc/)
-- [AngularJS中文社区文档](http://angularjs.cn/tag/AngularJS)
-- [AngularJS学习笔记](https://www.gitbook.com/book/checkcheckzz/angularjs-learning-notes/details)
-- [Mithril 文档](https://www.gitbook.com/book/justjavac/mithriljs/details)
 - [Vue.js教程(官方中文)](http://cn.vuejs.org/guide/)
-- [Ext4.1.0 Doc中文版](http://extjs-doc-cn.github.io/ext4api/)
-- [requirejs中文](http://www.requirejs.cn/)
-- [Grunt中文文档](http://www.gruntjs.net/)
 - [nodejs中文文档](https://www.gitbook.com/book/0532/nodejs)
-- [Discover Meteor 中文版](http://zh.discovermeteor.com/)
 - [Redux 中文文档](http://camsong.github.io/redux-in-chinese/)
-- [React&React Native生态-探索学习](https://github.com/icepy/Front-End-Develop-Guide/blob/master/React.md)
 - [React 入门教程](http://hulufei.gitbooks.io/react-tutorial/content/)
 - [react/webpack cookbook](https://fakefish.github.io/react-webpack-cookbook/)
 - [JavaScript Promise迷你书（中文版）](http://liubin.org/promises-book/)
@@ -176,16 +163,10 @@
 - [Go资源大全(en)](https://github.com/avelino/awesome-go)
 - [Go编程基础](https://github.com/Unknwon/go-fundamental-programming)
 - [学习Go语言](http://mikespook.com/learning-go/) `Done`
-- [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang/tree/master/zh)
 - [理解Linux进程](https://www.gitbook.com/book/tobegit3hub1/understanding-linux-processes/details)
 
 
-# 10. Ruby
-
-- [Ruby 文档](https://www.ruby-lang.org/zh_cn/documentation/)
-
-
-# 11. DB
+# 10. DB
 
 - [MySQL 资源大全中文版](https://github.com/jobbole/awesome-mysql-cn)
 - [PostgreSQL 官方手册的中文翻译版本(9.5)](http://pgsqlcn.com)
@@ -193,7 +174,7 @@
 - [MySQL 5.1参考手册](http://manual.51yip.com/mysql/index.html)
 - [H2 Database 教程](https://github.com/waylau/h2-database-doc)
 
-# 12. NoSQL
+# 11. NoSQL
 
 - [Redis教程](http://www.redis.net.cn/)
 - [Redis 命令参考](http://www.redisdoc.com/)
@@ -202,9 +183,9 @@
 - [Hadoop教程](http://www.yiibai.com/hadoop/)
 
 
-# 13. 工具/服务
+# 12. 工具/服务
 
-## 13.1 Test
+## 12.1 Test
 
 - [selenium 中文文档](https://github.com/fool2fish/selenium-doc) `Done`
 - [啟動 Geb － 網站自動化測試之美](https://www.gitbook.com/book/readbook/learning-geb/details) `Done`
@@ -212,7 +193,7 @@
 - [Appium中文文档](https://testerhome.com/wiki/appiumdoccn)
 - [多浏览器测试工具 browsersync](http://www.browsersync.cn/)
 
-## 13.2 Resource
+## 12.2 Resource
 
 - [前端资源库](http://www.awesomes.cn/)
 - [js 库1](http://www.javascripting.com/)
@@ -220,18 +201,15 @@
 - [css 库](https://stylesheets.co/)
 - [工具&服务](http://stackshare.io/)
 
-## 13.3 Other
+## 12.3 Other
 
 - [RabbitMQ中文 链接1](http://rabbitmq.mr-ping.com/)，[链接2](https://github.com/mr-ping/RabbitMQ_into_Chinese)
 - [gRPC 官方文档中文版](http://doc.oschina.net/grpc)
-- [Dubbo 官方文档](http://dubbo.io/Home-zh.htm)
-- [Apache Mesos 官方文档 V1.0(中文)](http://mesos.mydoc.io/)
 - [深入理解Nginx：模块开发与架构解析(1-3章)](http://book.51cto.com/art/201303/386555.htm)
 - [Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html)
 - [Nginx教程从入门到精通](http://www.ttlsa.com/nginx/nginx-stu-pdf/)(PDF版本，运维生存时间出品)
 - ~~[Nginx 的官方中文文档](http://wiki.nginx.org/NginxChs)~~
 - [Nginx中文参考文档](http://tool.oschina.net/apidocs/apidoc?api=nginx-zh)
-- [OpenResty最佳实践](https://www.gitbook.com/book/moonbingbing/openresty-best-practices)
 - [Jetty : 权威指南](http://ykgarfield.github.io/jetty-9.2.3.v20140905-zh/index.html)
 - [Tomcat 8 权威指南](http://wiki.jikexueyuan.com/project/tomcat/)
 - [Apache 中文手册](http://manual.51yip.com/ApacheMenu/index.html)
@@ -244,7 +222,6 @@
 - [Gradle 实战](https://www.gitbook.com/book/lippiouyang/gradle-in-action-cn)
 - [Gradle 2 用户指南](https://www.gitbook.com/book/waylau/gradle-2-user-guide/details)
 - [W3School Memcached 教程](http://www.kancloud.cn/wizardforcel/w3school-mc)
-- [开发 WebLogic Server 的 Web 应用程序、Servlet 和 JSP](http://edocs.weblogicfans.net/wls/docs92/webapp/index.html)
 - [Gitbook 使用入门](http://dockerpool.com/static/books/gitbook_cn/index.html)
 - [Elasticsearch权威指南（中文版）](https://www.gitbook.com/book/looly/elasticsearch-the-definitive-guide-cn)
 - [精通 Elasticsearch](https://www.gitbook.com/book/shgy/mastering-elasticsearch/details)
@@ -255,62 +232,31 @@
 - [编程之法：面试和算法心得](https://github.com/julycoding/The-Art-Of-Programming-By-July)
 
 
-# 14. 分布式/集群
+# 13. 分布式/集群
 
 - [OpenTracing:开放式分布式追踪规范](https://www.jianshu.com/p/d2b11c079af0)
-- [SOFATracer官方文档](https://www.sofastack.tech/projects/sofa-tracer/overview/)
+- [SOFATracer官方文档](https://www.sofastack.tech/projects/sofa-tracer/overview/)(分布式链路追踪中间件)
+- [大型集群上的快速和通用数据处理架构](https://code.csdn.net/CODE_Translation/spark_matei_phd)
+- [解道 分布式系统](http://www.jdon.com/DistributedSystems.html)
 
 
-# 15. ML
+# 14. ML
 
 - [生成模型与目标检测论文及其他笔记](http://www.gwylab.com/download.html)
-
-
-# 16. 大数据
-
-- [大数据/数据挖掘/推荐系统/机器学习相关资源](https://github.com/Flowerowl/Big-Data-Resources)
-- [大型集群上的快速和通用数据处理架构](https://code.csdn.net/CODE_Translation/spark_matei_phd)
-- [解道 大数据Big Data](http://www.jdon.com/bigdata.html)
-- [解道 分布式系统](http://www.jdon.com/DistributedSystems.html)
-- [Apache Spark 设计与实现](https://github.com/JerryLead/SparkInternals/blob/master/EnglishVersion/1-Overview.md)
 - [TensorFlow 官方文档中文版](http://wiki.jikexueyuan.com/project/tensorflow-zh/)
+- [大数据/数据挖掘/推荐系统/机器学习相关资源](https://github.com/Flowerowl/Big-Data-Resources)
+- [解道 大数据Big Data](http://www.jdon.com/bigdata.html)
 
 
-# 17. Android
-
-- [国内Android开发相关资源](http://www.androiddevtools.cn/)
-- [Android UI 资源大全(en)](https://github.com/wasabeef/awesome-android-ui)
-- [Android 开发技术周报](http://www.androidweekly.cn/)
-- [移动 Web 资源整理](http://www.cnblogs.com/PeunZhang/p/3407453.html)
-- [Fresco 中文文档](http://www.fresco-cn.org/docs/index.html)
-- [值得阅读的android技术文章](https://github.com/zmywly8866/Worth-Reading-the-Android-technical-articles)
-- [Android 开源项目源码解析](https://github.com/android-cn/android-open-project-analysis)
-- [Android 开源项目分类汇总](https://github.com/Trinea/android-open-project)
-- [Android 开发者站点资源](https://github.com/zhengxiaopeng/android-dev-bookmarks/)
-- [Android开源框架库分类](https://github.com/yeungeek/awesome-android-libraries)
-- [Android 设计指南非官方简体中文版](http://adchs.github.io/)
-- [Material Design 中文版](http://design.1sters.com/)
-- [android libs from github](https://github.com/snowdream/awesome-android)
-- [libraries, samples, tools & Open Source apps](https://github.com/cesards/AndroidElementals)
-- [博客园 Android 专题](http://kb.cnblogs.com/zt/android/)
-- [Android官方培训课程中文版](http://wiki.jikexueyuan.com/project/android-training-geek/)
-
-
-# 18. 运维
-
-- [开源监控系统中 Zabbix 和 Nagios 哪个更好？](http://www.zhihu.com/question/19973178)
-
-# 19. 硬件相关
+# 16. IOT
 
 - [一步步搭建物联网系统](https://github.com/gmszone/designiot)
-- [OpenWrt智能、自动、透明'翻'墙'路由器教程](https://www.gitbook.com/book/softwaredownload/openwrt-fanqiang/details)
 - [Raspberry Pi memo](http://www.worldhello.net/doc/raspi-memo/index.html)
 - [MQTT协议中文版](https://mcxiaoke.gitbooks.io/mqtt-cn/content/)
 
 
-# 20. Other
+# 17. Other
 
-- [各种安全相关思维导图整理收集](https://github.com/phith0n/Mind-Map)
 - [语义化版本(Semantic Versioning)规范](http://semver.org/lang/zh-CN/)
 - [UML](http://www.uml.org.cn/oobject/OObject.asp)
 - [API 参考手册大全](http://overapi.com/)
@@ -327,13 +273,12 @@
 - [XML](http://www.w3school.com.cn/xml/xml_namespaces.asp)
 - [开源世界旅行手册](http://i.linuxtoy.org/docs/guide/)
 - [知道创宇研发技能表v3.0](http://blog.knownsec.com/Knownsec_RD_Checklist/v3.0.html)
+- [各种安全相关思维导图整理收集](https://github.com/phith0n/Mind-Map)
 
 
 ***
 
 # A. 参考
-
-- [书栈网（开发手册/技术文档）](https://www.bookstack.cn/)
 
 - [free-programming-books(中文)](https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md)
 
@@ -341,51 +286,20 @@
 
 - [极客学院wiki,IT程序语言开发文档](http://wiki.jikexueyuan.com/)
 
-- [gitbook](https://www.gitbook.com/@nikytwo/starred)
-
-- [免费的编程中文书籍索引](http://siberiawolf.com/free_programming/index.html)
-
 - [W3CSCHOOL菜鸟教程](http://www.w3cschool.cc/)
-
-- [程序员手册大全](http://manual.51yip.com/)
 
 - [developerWorks 技术主题](http://www.ibm.com/developerworks/cn/topics/)
 
-- [看云](http://www.kancloud.cn/)
-
-- [啄木鸟社区 OpenBookProject -- 开放图书计划](http://wiki.woodpecker.org.cn/moin/OBP)
-
-- [博客园知识库](http://kb.cnblogs.com/)
-
-- [ChinaUnix 文档手册](http://man.chinaunix.net/)
-
 - [w3school 在线教程](http://www.w3school.com.cn/)
-
-- [解道jdon](http://www.jdon.com/)
 
 - [UML软件工程组织](http://www.uml.org.cn/)
 
 - [协议分析网](http://www.cnpaf.net/)
 
-- [Ubuntu 中文 Wiki](http://wiki.ubuntu.org.cn/)
-
-- [world hello](http://www.worldhello.net/doc/)
-
-- [金步国作品集](http://works.jinbuguo.com/)
-
 - [Netkiller 系列电子书](http://netkiller.github.io/)
 
-- [闲耘?. Wiki](http://wiki.hotoo.me/)
-
-- [Hacking Team 400G数据泄露下载](http://www.mianfeib.com/hacking-team-400g-data.html)
-
-- [linuxtoy](https://linuxtoy.org/pages/download.html)
 
 ***
-
-[groovy_learning]: http://blog.csdn.net/hivon/article/details/4256296
-
-[linux_tool]: http://linuxtools-rst.readthedocs.org/zh_CN/latest/
 
  [2]: http://www.w3school.com.cn/xpath/xpath_syntax.asp
 
