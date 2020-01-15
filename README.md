@@ -263,6 +263,8 @@
 
 # 15. ML
 
+- [生成模型与目标检测论文及其他笔记](http://www.gwylab.com/download.html)
+
 
 # 16. 大数据
 
