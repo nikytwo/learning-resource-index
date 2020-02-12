@@ -89,6 +89,7 @@
 - [Python Cookbook 第3版 中文版](http://python3-cookbook.readthedocs.org/zh_CN/latest/)
 - [每周一模块中文版](https://pymotwcn.readthedocs.org/en/latest/)
 - [Python Standard Library (中文版)](http://wiki.woodpecker.org.cn/moin/PythonStandardLib)
+- [“Windows 上的 Python”文档(微软官方)](https://docs.microsoft.com/zh-cn/windows/python/)
 
 ## 4.2. Lib/框架
 
