@@ -73,6 +73,21 @@ if ('Male' === gendar) {
 }
 ```
 
+这是简化的逻辑结构，它应该已经能让你对事情的复杂度有足够的了解了。
+这里只展示了保险费率随着年龄、性别、婚姻状况的不同情况而变化。
+若再增加一个是否吸烟的情况，可以想象，把整个费率表编写出来该有多复杂。
+
+而更好的做法是把这些费率存入由所有因素索引的数组（或表）里。
+
+上面复杂的逻辑就可以用类似下面这样简单的语句取而代之：
+
+```js
+var rateTable = [[[0,0],[70.0,71.0]], ... ,[[1,2],[80.0,85.0]]];
+
+var rate = rateTable[gender][age][maritalStatus];
+```
+
+
 #### 示例 3
 
 ```js
@@ -377,7 +392,24 @@ function getPayAmount() {
 
 #### 引入断言
 
-（略）
+```java
+doublegetExpenseLimit(){
+	if (project == null) {
+		throw new MyException("test");
+	}
+	return project.getExpenseLimit();
+}
+```
+
+改为：
+
+```js
+doublegetExpenseLimit(){
+	Assert.isTrue(project != null);
+	return project.getExpenseLimit();
+}
+```
+
 
 ***
 
