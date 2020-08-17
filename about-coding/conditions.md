@@ -113,7 +113,7 @@ if (rate < 0.37963) {
 #### 分解条件表达式
 
 ```js
-if (date.before(Summer_Start || date.after(Summer_End)) {
+if (date.before(Summer_Start) || date.after(Summer_End)) {
 	charge = quantity * _winterRate + _winterServiceCharge;
 } else {
 	charge = quantity * _summerRate;
@@ -132,11 +132,20 @@ if (notSummer(date)) {
 
 #### 合并条件表达式
 
-（略）
 
-#### 合并重复的条件片段
+```js
+if (_seniority < 2) return 0;
+if (_monthsDisabled > 12) return 0;
+if (_isPartTime) return 0;
+// compute the disability amount
+```
 
-（略）
+改为
+
+```js
+if (isNotEligableForDisability()) return 0;
+// compute the disability amount
+```
 
 #### 移除控制标记
 
@@ -300,6 +309,8 @@ public string WeiXin_WapBinding()
  
 #### 以卫语句取代嵌套条件
 
+示例：
+
 ```js
 function getPayAmount() {
 	var result;
@@ -328,6 +339,31 @@ function getPayAmount() {
 	if (_isSeparated) return separatedAmount();
 	if (_isRetired) return retiredAmount();
 	return normalPayAmount();
+}
+```
+
+示例：将条件反转
+
+```js
+function getCapital() {
+	var result = 0.0;
+	if (_capital > 0.0) {
+		if (_intRate > 0.0 && _duration > 0.0) {
+			result = (_income / _duration) * ADJ_FACTOR;
+		}
+	}
+	return result;
+}
+```
+
+改为：
+
+```js
+function getPayAmount() {
+	var result = 0.0;
+	if (_capital <= 0.0) return result;
+	if (_intRate <= 0.0 || _duration <= 0.0) return result;
+	return (_income / _duration) * ADJ_FACTOR;
 }
 ```
 
