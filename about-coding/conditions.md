@@ -1,129 +1,153 @@
 
 
-## 复杂表达式
+## if进阶
 
-### 复杂条件表达式
+### 条件表达式的重要性
 
-#### 示例 1
+#### 糟糕的if语句
 
 ```js
 if (!((score > 700) || ((income >=40000) && (income <= 100000) && (score > 500)) || (income > 100000)))
-	console.log("反对");
+	console.log("R");
 else
-	console.log("接受");
+	console.log("A");
 ```
 
 问题：
 
-根据上面的判断条件，填写以下表格（“接受”还是“反对”）。
+根据上面的判断条件，填写以下表格（“R”还是“A”）。
 
-|  | income > 100000 | 100000 >= income >= 40000 | 40000 > income |
-| :------: | :--: | :--: | :------: |
-|  score > 700  |    |    |    |
-|   700 >= score >= 500   |    |    |    |
-|  500 > score  |    |    |    |
+| 		 |  income > 100000  | 100000 >= income >= 40000 | 40000 > income  |
+|--------|--------|--------------|--------|----------|
+| score > 700  | A	  |   A    |  A   |
+| 700 >= score >= 500  | A	  |   A    |  R  |
+| 500 > score  | A	  |   R    |  R   |
 
-#### 示例 2
 
-某保险费率程序：
+#### 圈复杂度
 
-```js
-if ('Male' === gendar) {
-	if ('single' === maritalStatus) {
-		if (age < 16) {
-			rate = 70.0;
-		} else if (age < 30) {
-			rate = 95.0
-		} else if (age < 55) {
-			rate = 400.0
-		} else if (age < 80) {
-			rate = 600.0
+大多数公司规定函数不能超过80行！为什么？
+
+太长的函数过于复杂。如何计算复杂度？
+
+
+ **圈复杂度**（Thomas McCabe 1975）
+
+ 定义：
+
+ 1. 从1开始，一直往下通过程序
+ 2. 一旦遇到以下关键字，或者其他同类词，加 1（if / while / for / and / or)
+ 3. 给 case 语句中的每一种情况加 1
+
+示例：
+
+```java
+public void example() {
+    if (a == b) {
+		if (a1 == b1) {
+			fiddle();
+		} else if (a2 == b2) {
+			fiddle();
 		} else {
-			rate = 1000.0
+			fiddle();
 		}
-	} else
-		if (age < 13) {
-			rate = 250.0;
-		} else if (age < 23) {
-			rate = 300.0
-		} else if (age < 60) {
-			rate = 600.0
-		} else if (age < 80) {
-			rate = 900.0
-		} else {
-			rate = 1000.0
+	} else if (c == d) {
+		while (c == d) {
+			fiddle();
 		}
-	}
-} else {
-	if ('single' === maritalStatus) {
-		if (age < 11) {
-			rate = 80.0;
-		} else if (age < 31) {
-			rate = 90.0
-		} else if (age < 60) {
-			rate = 400.0
-		} else if (age < 85) {
-			rate = 600.0
-		} else {
-			rate = 1000.0
+	} else if (e == f) {
+		for (int n = 0; n < h; n++) {
+			fiddle();
 		}
-	} else
-		// 其他
+	} else {
+		switch (z) {
+			case 1:
+				fiddle();
+				break;
+			case 2:
+				fiddle();
+				break;
+			case 3:
+				fiddle();
+				break;
+			default:
+				fiddle();
+				break;
+		}
 	}
 }
 ```
 
-这是简化的逻辑结构，它应该已经能让你对事情的复杂度有足够的了解了。
-这里只展示了保险费率随着年龄、性别、婚姻状况的不同情况而变化。
-若再增加一个是否吸烟的情况，可以想象，把整个费率表编写出来该有多复杂。
+过去研究：圈复杂度大于 10 的方法存在很大的出错风险。
 
-而更好的做法是把这些费率存入由所有因素索引的数组（或表）里。
-
-上面复杂的逻辑就可以用类似下面这样简单的语句取而代之：
-
-```js
-var rateTable = [[[0,0],[70.0,71.0]], ... ,[[1,2],[80.0,85.0]]];
-
-var rate = rateTable[gender][age][maritalStatus];
-```
+* 1-4 is low complexity,
+* 5-7 indicates moderate complexity,
+* 8-10 is high complexity,
+* 11- very high complexity.
 
 
-#### 示例 3
+
+### 优化和消除条件表达式
+
+#### 以卫语句取代嵌套条件
+
+示例1
 
 ```js
-if (rate < 0.37963) {
-	console.log("a1");
-} else if (rate < 0.39003) {
-	console.log("a2");
-} else if (rate < 0.48925) {
-	console.log("a3");
-} else if (rate < 0.51298) {
-	console.log("a4");
-} else if (rate < 0.55702) {
-	console.log("a5");
-} else if (rate < 0.61293) {
-	console.log("a6");
-} else if (rate < ...) {
-	// 其他
-	// ...
-	// ...
-	// ...
-} else {
-	console.log("an");
+function getPayAmount() {
+	var result;
+	if (_isDead) {
+		result = deadAmount();
+	} else {
+		if (_isSeparated) {
+			result = separatedAmount();
+		} else {
+			if (_isRetired) {
+				result = retiredAmount();
+			} else {
+				result = normalPayAmount();
+			}
+		}
+	}
+	return result;
 }
-
-
 ```
 
-### 总结
+改为：
 
-表驱动：
+```js
+function getPayAmount() {
+	if (_isDead) return deadAmount();
+	if (_isSeparated) return separatedAmount();
+	if (_isRetired) return retiredAmount();
+	return normalPayAmount();
+}
+```
 
-* 直接访问
-* 索引访问
-* 阶梯访问
+示例2：将条件反转
 
-### 其他方法
+```js
+function getCapital() {
+	var result = 0.0;
+	if (_capital > 0.0) {
+		if (_intRate > 0.0 && _duration > 0.0) {
+			result = (_income / _duration) * ADJ_FACTOR;
+		}
+	}
+	return result;
+}
+```
+
+改为：
+
+```js
+function getPayAmount() {
+	var result = 0.0;
+	if (_capital <= 0.0) return result;
+	if (_intRate <= 0.0 || _duration <= 0.0) return result;
+	return (_income / _duration) * ADJ_FACTOR;
+}
+```
 
 #### 分解条件表达式
 
@@ -146,7 +170,6 @@ if (notSummer(date)) {
 ```
 
 #### 合并条件表达式
-
 
 ```js
 if (_seniority < 2) return 0;
@@ -227,168 +250,6 @@ function foundMiscreant(peoples) {
 }
 ```
 
-更复杂的例子：
-
-```js
-public string WeiXin_WapBinding()
-{
-    string uiId = Session_User_InfoEntity.UI_ID;
-    string openId = Session_User_InfoEntity.Open_ID;
-    if (!string.IsNullOrEmpty(uiId) && !string.IsNullOrEmpty(openId))
-    {
-        string tmpUiId = User_InfoHandle.GetWeiXinUser(openId);
-        string oppen_id = User_InfoDAL.GetWeixinID(uiId);
-        int Mark = 0;//标记,为下边做区分
-        if (tmpUiId != "" && tmpUiId != uiId)
-        {
-            return "此微信id已被绑定,不能一个微信号绑定多个账户。";
-        }
-        else if (tmpUiId == uiId)//标记,为下边做区分(自己绑自己)
-        {
-            Mark = 1;
-        }
-
-        string WeiXinNick = "成功更换微信";
-        if (oppen_id == "")
-        {
-            WeiXinNick= "成功绑定微信";
-        }
-        
-        //绑定微信id--是否判断唯一微信id(目前不要求)
-        string result= WeiXin_WapBinding(Session_User_InfoEntity.NickName, openId, uiId);
-        //是否是虚拟推荐人.是关联推荐人记录表//是否是被推荐人.是关联推荐人记录表
-        if (Mark == 0 && WeiXinNick != "成功绑定微信")//不是自己绑自己原有的微信id,并且不是首次绑定,才可以删除重复数据
-        {
-            //删除重复的推荐人虚拟id
-            USER_WEIXIN_TOTALDAL.GetRecommendOpendId(open_Id);
-        }
-        if (WeiXinNick == "成功绑定微信")
-        {
-            //是否是虚拟推荐人.是关联推荐人记录表
-            USER_WEIXIN_TOTALDAL.SetRelateTotal(open_Id, User_Id);
-        }
-        else//再次绑定
-        {
-            USER_WEIXIN_TOTALDAL.UpdateRelateTotal(open_Id, User_Id);
-        }
-        
-        return result != "操作失败" ? "成功" : result;
-    }
-    else
-    {
-        return "系统不能检测到您当前的微信！";
-    }
-}
-```
-
-改为:
-
-```js
-public string WeiXin_WapBinding()
-{
-    string uiId = Session_User_InfoEntity.UI_ID;
-    string openId = Session_User_InfoEntity.Open_ID;
-
-    if (string.IsNullOrEmpty(uiId) || string.IsNullOrEmpty(openId))
-    {
-        return "系统不能检测到您当前的微信！";
-    }
-    string uiIdOfCurWeixin = User_InfoHandle.GetWeiXinUser(openId);
-    if ("" != uiIdOfCurWeixin && uiIdOfCurWeixin != uiId)
-    {
-        return "此微信id已被绑定,不能一个微信号绑定多个账户。";
-    }
-        
-    string openIdOfCurUser = User_InfoDAL.GetWeixinID(uiId);
-    string result = WeiXin_WapBinding(Session_User_InfoEntity.NickName, openId, uiId);
-    if (openIdOfCurUser == "")
-    {
-        //是否是虚拟推荐人.是关联推荐人记录表
-        USER_WEIXIN_TOTALDAL.SetRelateTotal(open_Id, User_Id);
-    }
-    else if (uiIdOfCurWeixin == "")
-    {
-        //删除重复的推荐人虚拟id
-        USER_WEIXIN_TOTALDAL.GetRecommendOpendId(open_Id);
-        USER_WEIXIN_TOTALDAL.UpdateRelateTotal(open_Id, User_Id);
-    }
-    else
-    {
-        // 待绑定的微信号与已绑定的微信号相同
-        USER_WEIXIN_TOTALDAL.UpdateRelateTotal(open_Id, User_Id);
-    }
-
-    return result != "操作失败" ? "成功" : result;
-}
-```
- 
-#### 以卫语句取代嵌套条件
-
-示例：
-
-```js
-function getPayAmount() {
-	var result;
-	if (_isDead) {
-		result = deadAmount();
-	} else {
-		if (_isSeparated) {
-			result = separatedAmount();
-		} else {
-			if (_isRetired) {
-				result = retiredAmount();
-			} else {
-				result = normalPayAmount();
-			}
-		}
-	}
-	return result;
-}
-```
-
-改为：
-
-```js
-function getPayAmount() {
-	if (_isDead) return deadAmount();
-	if (_isSeparated) return separatedAmount();
-	if (_isRetired) return retiredAmount();
-	return normalPayAmount();
-}
-```
-
-示例：将条件反转
-
-```js
-function getCapital() {
-	var result = 0.0;
-	if (_capital > 0.0) {
-		if (_intRate > 0.0 && _duration > 0.0) {
-			result = (_income / _duration) * ADJ_FACTOR;
-		}
-	}
-	return result;
-}
-```
-
-改为：
-
-```js
-function getPayAmount() {
-	var result = 0.0;
-	if (_capital <= 0.0) return result;
-	if (_intRate <= 0.0 || _duration <= 0.0) return result;
-	return (_income / _duration) * ADJ_FACTOR;
-}
-```
-
-#### 以多态取代条件表达式
-
-（略）
-
-#### 引入`Null`对象
-
-（略）
 
 #### 引入断言
 
@@ -409,6 +270,94 @@ doublegetExpenseLimit(){
 	return project.getExpenseLimit();
 }
 ```
+
+#### 引入`Null`对象
+
+```java
+if (null != user) {
+	return user.getName();
+} else {
+	return null;
+}
+```
+
+使用`Optional`创建`Null`对象后：
+
+```java
+Optional<User> userOpt = Optional.ofNullable(user);
+
+return userOpt.map(User::getName)
+			.orElse(null);
+```
+
+
+#### 以多态取代条件表达式
+
+（略）
+
+#### 使用策略模式
+
+（略）
+
+
+
+#### 表驱动
+
+某保险费率程序：
+
+```js
+if ('Male' === gendar) {
+	if (age < 16) {
+		rate = 70.0;
+	} else if (age < 30) {
+		rate = 95.0
+	} else if (age < 55) {
+		rate = 400.0
+	} else if (age < 80) {
+		rate = 600.0
+	} else {
+		rate = 1000.0
+	}
+} else {
+	if (age < 11) {
+		rate = 80.0;
+	} else if (age < 31) {
+		rate = 90.0
+	} else if (age < 60) {
+		rate = 400.0
+	} else if (age < 85) {
+		rate = 600.0
+	} else {
+		rate = 1000.0
+	}
+}
+```
+这是简化的逻辑结构，它应该已经能让你对事情的复杂度有足够的了解了。
+这里只展示了保险费率随着年龄、性别、婚姻状况的不同情况而变化。
+若再增加一个是否吸烟的情况，可以想象，把整个费率表编写出来该有多复杂。
+
+而更好的做法是把这些费率存入由所有因素索引的数组（或表）里。
+
+上面复杂的逻辑就可以用类似下面这样简单的语句取而代之：
+
+```js
+var rateTable = [
+		[0,0],
+		[1,2],
+		... ,
+		[70.0,71.0],
+		[80.0,85.0]
+	];
+
+var rate = rateTable[age][gender];
+```
+
+表驱动：
+
+* 直接访问
+* 索引访问
+* 阶梯访问
+
 
 
 ***
