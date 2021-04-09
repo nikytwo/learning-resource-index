@@ -42,6 +42,10 @@
 * [推荐几个自己写的Java后端相关的范例项目](http://wosyingjun.iteye.com/blog/2312553): Spring+SpringMVC+Mybatis+页面分离+nginx负载均衡+tomcat集群+基于dubbo+zookeeper
 * [跟着 Github 学习 Restful HTTP API 设计](http://cizixs.com/2016/12/12/restful-api-design-guide)
 
+### 1.2.1 分布式事务
+
+* [如何通过事务消息保障抢购业务的分布式一致性](https://mp.weixin.qq.com/s/guJ5ZfyIZpfHrNM2xOL3zA): 通过MQ实现高并发的最终一致性
+
 ### 1.3. 网络
 
 * [简明网络I/O模型---同步异步阻塞非阻塞之惑](http://www.jianshu.com/p/55eb83d60ab1): 5种I/O模型比较图
