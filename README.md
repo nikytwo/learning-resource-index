@@ -78,6 +78,7 @@
 - [PEP是什么？](https://www.cnblogs.com/abella/p/10056875.html)
 - [值得阅读的PEP](https://www.zhihu.com/question/23484654)
 - [以正确的方式开源 Python 项目](https://www.oschina.net/translate/open-sourcing-a-python-project-the-right-way?lang=chs&p=1)
+- Python漫游指南(Hitchhiker's Guide to Python)[中文](https://www.osgeo.cn/python-guide/)/[en](https://docs.python-guide.org/):安装，环境配置，如何写好代码，应用方案，发布代码
 - [Python资源大全(en)](https://github.com/vinta/awesome-python)
 - [Python 绝对简明手册](http://wiki.woodpecker.org.cn/moin/PyAbsolutelyZipManual)
 - [深入 Python 2](http://woodpecker.org.cn/diveintopython/) `Done`
