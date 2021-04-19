@@ -78,8 +78,9 @@
 - [PEP是什么？](https://www.cnblogs.com/abella/p/10056875.html)
 - [值得阅读的PEP](https://www.zhihu.com/question/23484654)
 - [以正确的方式开源 Python 项目](https://www.oschina.net/translate/open-sourcing-a-python-project-the-right-way?lang=chs&p=1)
-- Python漫游指南(Hitchhiker's Guide to Python)[中文](https://www.osgeo.cn/python-guide/)/[en](https://docs.python-guide.org/):安装，环境配置，如何写好代码，应用方案，发布代码
+- Python漫游指南(Hitchhiker's Guide to Python)[中文1](https://www.osgeo.cn/python-guide/)/[中文2](https://github.com/Prodesire/Python-Guide-CN)/[en](https://docs.python-guide.org/):安装，环境配置，如何写好代码，应用方案，发布代码
 - [Python资源大全(en)](https://github.com/vinta/awesome-python)
+- [Python 程序员必知必会的开发者工具](https://www.oschina.net/news/48645/python-developer-tools):文档、测试、代码分析、调试、性能优化、打包等
 - [Python 绝对简明手册](http://wiki.woodpecker.org.cn/moin/PyAbsolutelyZipManual)
 - [深入 Python 2](http://woodpecker.org.cn/diveintopython/) `Done`
 - [深入 Python 3](http://sebug.net/paper/books/dive-into-python3/)
@@ -189,7 +190,6 @@
 
 ## 12.1 Test
 
-- [Pact中文参考指南](https://www.bookstack.cn/read/pact-zh/README.md)：Pact是一个CDC(消费者驱动契约测试)工具
 - [selenium 中文文档](https://github.com/fool2fish/selenium-doc) `Done`
 - [啟動 Geb － 網站自動化測試之美](https://www.gitbook.com/book/readbook/learning-geb/details) `Done`
 - [Appium 中文教程](https://www.gitbook.com/book/testerhome/appium-chinese-tutorial/details)
