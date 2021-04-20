@@ -190,6 +190,7 @@
 
 ## 12.1 Test
 
+- [Pact中文参考指南](https://www.bookstack.cn/read/pact-zh/README.md)：Pact是一个CDC(消费者驱动契约测试)工具
 - [selenium 中文文档](https://github.com/fool2fish/selenium-doc) `Done`
 - [啟動 Geb － 網站自動化測試之美](https://www.gitbook.com/book/readbook/learning-geb/details) `Done`
 - [Appium 中文教程](https://www.gitbook.com/book/testerhome/appium-chinese-tutorial/details)
