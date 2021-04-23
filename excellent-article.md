@@ -15,6 +15,7 @@
 
 ### 1.1. 基础
 
+* [好家伙，你管这破玩意叫文件系统？](https://mp.weixin.qq.com/s/_xaDRuBzn0q_qJ4nKC_evw): 文件系统ext2
 * [ kerberos认证原理](http://blog.csdn.net/wulantian/article/details/42418231): 身份认证。**待整理**[敞开的地狱之门：Kerberos协议的滥用](http://www.freebuf.com/articles/system/45631.html)
 * [日志：每个软件工程师都应该知道的有关实时数据的统一抽象](https://github.com/oldratlee/translations/tree/master/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 * [互联网新人如何入门和掌握 Java 开发](https://zhuanlan.zhihu.com/p/21371311?refer=notageek): 没看的看，看过的再看
@@ -40,6 +41,10 @@
 * [消息队列设计精要](http://tech.meituan.com/mq-design.html): 应用场景：解耦、数据一致性（日志+task）、广播、错峰与流控，功能：**待整理**
 * [推荐几个自己写的Java后端相关的范例项目](http://wosyingjun.iteye.com/blog/2312553): Spring+SpringMVC+Mybatis+页面分离+nginx负载均衡+tomcat集群+基于dubbo+zookeeper
 * [跟着 Github 学习 Restful HTTP API 设计](http://cizixs.com/2016/12/12/restful-api-design-guide)
+
+### 1.2.1 分布式事务
+
+* [如何通过事务消息保障抢购业务的分布式一致性](https://mp.weixin.qq.com/s/guJ5ZfyIZpfHrNM2xOL3zA): 通过MQ实现高并发的最终一致性
 
 ### 1.3. 网络
 
