@@ -44,37 +44,55 @@ b. 创建启动类
 
 接口/类详细解释：
 ChannelInboundHandleerAdapter下的方法
-handlerAdded: ChannelGroup 增加了 handler
-handlerRemoved: ChanelGroup 移除了 handler
-channelActive: 通道连接建立激活（在Channel建立时执行一次）
-channelInactive: 通道连接断开（在Channel失效时执行一次）
+* handlerAdded: ChannelGroup 增加了 handler
+* handlerRemoved: ChanelGroup 移除了 handler
+* channelActive: 通道连接建立激活（在Channel建立时执行一次）
+* channelInactive: 通道连接断开（在Channel失效时执行一次）
 
 
 超时和连接空闲：
 首先定义何为超时。
-所谓的超时，一般对于请求方是，当在指定时间内未收到服务方的响应，即对应下面的读超时；而对于服务方则是，当在指定时间内未完成数据发送，即对应下面的写超时。
+我们常说的超时，一般对于请求方是，当在指定时间内未收到服务方的响应，即对应下面的读超时；而对于服务方则是，当在指定时间内未完成数据发送，即对应下面的写超时。
 其他类型的超时：
-    * 读取数据时，超过指定时间？(参考 channelFuture 的监听器)
-    * 连接超时？
+* 在读取数据时，超过指定时间？(参考 channelFuture 的监听器)
+* 连接超时？
 
 Netty 提供了下列几种超时。
-空闲超时(包括：读空闲超时、写空闲超时、空闲超时)：
-    * 读空闲超时：在指定时间内没有收到消息（inbound）
-    * 写空闲超时：在指定时间内没有发送消息（outbound）
-    * 空闲超时：在指定时间内没有发送和接收到消息
-读超时(=读空闲超时)：在指定时间内没有收到消息（inbound）
-写超时(区别空闲写超时)：在指定时间内没有完成消息的发送
+* 空闲超时(包括：读空闲超时、写空闲超时、空闲超时)：
+    - 读空闲超时：在指定时间内没有收到消息（inbound）
+    - 写空闲超时：在指定时间内没有发送消息（outbound）
+    - 空闲超时：在指定时间内没有发送和接收到消息
+* 读超时(=读空闲超时)：在指定时间内没有收到消息（inbound）
+* 写超时(区别空闲写超时)：在指定时间内没有完成消息的发送（outbound）
 
-IdleStateHandler(空闲状态处理器)，对应空闲超时的处理。
+具体接口与类：
+* IdleStateHandler(空闲状态处理器)，对应空闲超时的处理。
 其中它的三个参数readIdleTime、writeIdleTime和allIdleTime对应读空闲时间、写空闲时间、空闲时间，当超过这些时间时会触发IdleStateEvent事件。
 我们可以通过重写接口ChannelInboundHandler的方法userEvenTriggered来处理这个事件。 
-ReadTimeoutHandler(读超时处理器，继承IdleStateHandler)，对应上面的读超时。当超时发生时会抛出ReadTimeoutException，我们可以通过重写接口ChannelInboundHandler的excptionCaught方法来处理这个异常。
-WriteTimeoutHandler(写超时处理器)，对应上面的写超时。当超时发生时会抛出WriteTimeoutException，我们可以通过重写接口ChannelInboundHandler的excptionCaught方法来处理这个异常。
+* ReadTimeoutHandler(读超时处理器，继承IdleStateHandler)，对应上面的读超时。当超时发生时会抛出ReadTimeoutException，我们可以通过重写接口ChannelInboundHandler的excptionCaught方法来处理这个异常。
+* WriteTimeoutHandler(写超时处理器)，对应上面的写超时。当超时发生时会抛出WriteTimeoutException，我们可以通过重写接口ChannelInboundHandler的excptionCaught方法来处理这个异常。
 
 ChannelFuture 的 listener:
-
+    待整理
 
 编解码
-StringEncode/StringDecode
+* StringEncoder/StringDecoder
+* FixedLengthFrameDecoder
+* LineBasedFrameDecoder
+* DelimiterBasedFrameDecoder
+* LengthFieldBasedFrameDecoder
 
+常见序列化
+* MessagePack
+* Protobuf
+* Thrift
+* JBoss Marshalling
+
+异步与定时任务
+* EventLoop/EventExecutorGroup
+    - execute
+    - schedule(只执行一次)
+    - scheduleAtFixdeRate(会顺延)
+    - scheduleWithFixedDelay(不会顺延)
+* 自定义线程池: 耗时的业务任务应使用这个，避免阻塞EventLoop线程
 
