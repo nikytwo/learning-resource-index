@@ -96,3 +96,37 @@ ChannelFuture 的 listener:
     - scheduleWithFixedDelay(不会顺延)
 * 自定义线程池: 耗时的业务任务应使用这个，避免阻塞EventLoop线程
 
+ByteBuf
+优点：
+* 区分了读写index，不需要flip()操作
+* 提供Composite缓冲
+* 自动扩容
+* 更快的响应速度
+分类1：
+* 堆内(Heap): 快速分配和释放，但会有内存复制
+* 堆外(Direct): 不占用堆空间，但分配释放复杂
+* 复合(Composite)
+分类2：
+* 池化(Pooled***): 提高内存使用率，降低GC频率
+* 非池化(Unpooled***): 
+操作：
+* get/set***操作不会移动读写index，且不会触发扩容。
+* read/write***会移动index。
+* 0 <= readerIndex <=writerIndex <= capacity 永远成立
+* discardReadBytes会清空已读字节并将readerIndex置零，但涉及的内存复制，影响性能，一般在需要马上释放内存的时候使用收益才大。
+* clear会将读写index置零，比discardReadBytes成本更低。
+* duplicate/slice/readOnly/order返回的是视图，而copy返回的是副本。
+* nioBuffer: 返回ByteBuf的ByteBuffer视图，但无法感知扩容操作。
+主要的类：
+* AbstractByteBuf
+* ResourceLeakDetector
+*
+
+Bootstrap
+
+Channel
+
+ChannelPipeline
+
+ChannelHandler
+
